@@ -11,7 +11,7 @@
 	  </ol>
 
 	  <!-- Wrapper for slides -->
-	  <div class="carousel-inner" role="listbox">
+	  <div class="carousel-inner" role="listbox"> 
 	    <div class="item active item-video">
 	      <video id="bgvid" playsinline="" autoplay="" muted="" loop="">
 		<source src="assets/images/dmd-video.mp4" type="video/mp4">
