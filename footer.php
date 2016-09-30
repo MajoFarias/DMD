@@ -85,5 +85,17 @@
 	 });
 
 	</script>
+
+	<script>
+		$(window).scroll(function() {
+	    var scroll = $(window).scrollTop();
+
+	    if (scroll >= 150) {
+	        $(".clearMargin").addClass("addMargin");
+	    } else {
+	        $(".clearMargin").removeClass("addMargin");
+	    }
+	});
+	</script>
 </body>
 </html>
