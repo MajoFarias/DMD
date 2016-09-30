@@ -1,3 +1,13 @@
+* a{
+	color: $red;
+	&:hover{
+		text-decoration: none;
+	}
+	:focus{
+		color: $red;
+	}
+}
+
 .headerIn{
 	margin-top: 133px;
 	display: inline-block;
@@ -17,26 +27,72 @@
 	}
 
 }
+.textHead{
+			width: 100%;
+			 padding: 24px 18px;
+             font-size: 16px;
+             font-weight: 100;
+             line-height: 26px;
+             color: $font;
+             strong{
+             	font-size: 20px;
+             	font-weight: 600;
+             	color: black;
+             }
+		} 
 
-.videoLg{
-	height: 280;
-	margin: 24px 0;
+.headMainorMed{
+	// height: 300;
+	margin:0;
 	.content{
-	padding: 0 15px;
-	width:100%;
-	height: 442px;
-	 	background: black;
+		width:100%;
+		height: auto;
+		@include flexFlow;
+		iframe{
+			width:  100%;
+			height: 300px;
+		   }
+		.textHead{
+			width: 100%;
+			 padding: 24px 18px;
+             font-size: 16px;
+             font-weight: 100;
+             line-height: 26px;
+             color: $font;
+             strong{
+             	font-size: 20px;
+             	font-weight: 600;
+             	color: black;
+             }
+		}   
 
-	}
-	 @media (min-width: 992px) {
-	 	height: 442px;
-	 	margin: 54px 0;
-	 }
+		 }
+		  @media (min-width: 450px) {
+		  	.content{
+			    iframe{
+			    	height: 380px;
+			    }
+		    }
+		  }
+		  @media (min-width: 768px) {}
+	     @media (min-width: 992px) {
+	     	.content{
+	     		margin: 36px 0 64px;
+	     		iframe{
+	     			width: 65%;
+	     			height: auto;
+	     		}
+		     	.textHead{
+		     		width: 35%;
+		     		padding: 0 36px ;
+		     	}
+	     	}
+	     }
 }
 
 /////GER
 a:focus{
-	color: white;
+	color: #2f5685;
 	text-decoration: none;
 }
 .btn-red{
@@ -75,6 +131,10 @@ a:focus{
 }
 .red{
 	color: #c4211a;
+	&:hover{
+		text-decoration: none;
+
+	}
 }
 
 .text{
@@ -92,7 +152,7 @@ h1.line{
 	 @media (min-width: 992px) {
 	 	font-size: 36px;
 	 }
-	 @media (min-width: 1200) {
+	 @media (min-width: 1200px) {
             font-size: 46px;
 	 }
 }
@@ -119,13 +179,22 @@ h1.line{
 }	
 .paddingAllB{
 	padding: 54px 36px 0;
+	@media (min-width: 992px) {
+        padding: 60px 36px 0;
+	}
+	@media (min-width: 1200px) {
+        padding: 80px 36px 0;
+	}
 }
 .paddingAll{
+	padding: 18px 36px;
+	@media (min-width: 768px) {
 	padding: 54px 36px;
+
+	}
 }
 ul.general{
 	@include cero;
-	margin-bottom: 54px;
 	width:100%;
 	li{
 	   @include flexFlow;
@@ -150,6 +219,71 @@ ul.general{
        	}
        }
 	}
+	 @media (min-width: 768px) {
+
+	 }
+}
+ul.generalTwo{
+	@include cero;
+	margin-bottom: 140px;
+	width:100%;
+	li{
+	   @include flexFlow;
+       list-style: none; 
+       margin-bottom: 9px;
+       p{
+         width: 90%;
+         font-size: 14px;
+         font-weight: 400;
+           color: #787878;
+           line-height: 22px;
+       }
+       i{
+       	width: 8%;
+       	margin: 0;
+       	padding:0;
+       	[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+		[class^="flaticon-"]:after, [class*=" flaticon-"]:after {  
+			font-size: 20px;
+			font-style: normal;
+			margin-left: 0 !important;
+       	}
+       }
+	}
+	 @media (min-width: 768px) {
+
+	 }
+}
+ul.generalThree{
+	@include cero;
+	margin-bottom: 70px;
+	width:100%;
+	li{
+	   @include flexFlow;
+       list-style: none; 
+       margin-bottom: 9px;
+       p{
+         width: 90%;
+         font-size: 14px;
+         font-weight: 400;
+           color: #787878;
+           line-height: 22px;
+       }
+       i{
+       	width: 8%;
+       	margin: 0;
+       	padding:0;
+       	[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+		[class^="flaticon-"]:after, [class*=" flaticon-"]:after {  
+			font-size: 20px;
+			font-style: normal;
+			margin-left: 0 !important;
+       	}
+       }
+	}
+	 @media (min-width: 768px) {
+
+	 }
 }
 .row-eq-height {
   display: -webkit-box;
@@ -172,15 +306,72 @@ ul.general{
 	    }
 
 }
+.panelFlexLarge{
+	width: 100%;
+	max-width: 420px;
+	border-bottom: 1px solid rgba( #333333, .2);
+	padding: 0 36px 54px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 72px;
+	
+	   @media (min-width: 768px) {
+	    	width: 50%;
+	    	border-bottom: none;
+	    }
+	    @media (min-width: 992px) {
+			width: 33.3%;
+	
+	    }
+}
+figure.img{
+	overflow: hidden;
+	width: 100%;
+	height: 187px;
+	position: relative;
+}
 .flex{
 	width: 100%;
 	@include flexFlow;
+	.panelFlexLarge:nth-child(odd){
+		border-right: none;
+		 @media (min-width: 768px) {
+		   border-right: 1px solid rgba( #333333, .2);
+	     }
+	      @media (min-width: 992px) {
+	      	border-right: none;
+	      }
+	}
+	.panelFlexLarge{
+		border-left:  none;
+		border-right: none;
+		 @media (min-width: 992px) {
+		border-left: 1px solid rgba( #333333, .2);
+		border-right: 1px solid rgba( #333333, .2);
+	    }
+	}
+	.panelFlexLargep:nth-child(3n+3), .panelFlexLargep:nth-child(3n+1) {
+        border-left:  none;
+		border-right: none;
+       }
 
+}
+.btnB{
+	position: relative;
+
+	>a, button{
+		left: 0;
+		right: 0;
+		margin:  0 auto;
+		position: absolute;
+		width: 200px;
+		bottom: 54px;
+	}
 }
 .btnC{
 	position: relative;
 
-	a, button{
+	>a, button{
 		left: 0;
 		right: 0;
 		margin:  0 auto;
@@ -190,3 +381,85 @@ ul.general{
 	}
 }
 
+
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+/* Month header */
+.month {
+    padding: 70px 25px;
+    width: 100%;
+
+}
+
+/* Month list */
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: black;
+    font-size: 42px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 700;
+
+}
+
+/* Previous button inside month header */
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color:#ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+    padding: 10px 0;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: $red;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
+}
+// .modalSmall{
+// background-color:$blue;
+// 	padding: 26px 0 ;
+// 	color: white;
+// 	text-align: center;
+
+
+// }
