@@ -21,6 +21,7 @@
 	        <h2>The power you need to drive innovation</h2>
 	        <h3>Descubre el nuevo poder y desempeño de SOLIDWORKS<sup>®</sup> 2017
 para convertir rápidamente tus ideas en productos terminados.</h3>
+			<p><a class="page-scroll" href="#1"><img src="assets/images/mouse.png" alt=""></a></p>
 	      </div>
 	    </div>
 	    <div class="item item-video">
@@ -32,6 +33,7 @@ para convertir rápidamente tus ideas en productos terminados.</h3>
 	        <h2>The power you need to drive innovation</h2>
 	        <h3>Descubre el nuevo poder y desempeño de SOLIDWORKS<sup>®</sup> 2017
 para convertir rápidamente tus ideas en productos terminados.</h3>
+			<p><a class="page-scroll" href="#1"><img src="assets/images/mouse.png" alt=""></a></p>
 	      </div>
 	    </div>
 
@@ -44,6 +46,7 @@ para convertir rápidamente tus ideas en productos terminados.</h3>
 	        <h2>The power you need to drive innovation</h2>
 	        <h3>Descubre el nuevo poder y desempeño de SOLIDWORKS<sup>®</sup> 2017
 para convertir rápidamente tus ideas en productos terminados.</h3>
+			<p><a class="page-scroll" href="#1"><img src="assets/images/mouse.png" alt=""></a></p>
 	      </div>
 	    </div>
 	  <!--  <div class="item">
@@ -60,7 +63,7 @@ para convertir rápidamente sus ideas en productos acabados</h3>
 	</div>
 </section>
 
-<section class="first container">
+<section class="first container" id="1">
 	<h1>Novedades de Solidworks<sup>®</sup> 2017</h1>
 	<h2>Gracias a la mayor potencia y rendimiento del núcleo y las nuevas funciones para tecnologías emergentes, <strong>nunca ha sido tan fácil diseñar y crear con SOLIDWORKS<sup>®</sup></strong>, la solución de diseño y desarrollo preferida por más de 3,3 millones de usuarios de todo el mundo. A continuación se muestran algunas de las nuevas características principales que le ayudarán a mejorar su flujo de trabajo.</h2>
 </section>
@@ -74,9 +77,10 @@ para convertir rápidamente sus ideas en productos acabados</h3>
 		<div class="object-content">	
 		<img src="assets/images/dmd_09.jpg" alt="">
 		<h3>Calendario de eventos</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur
-adipiscing elit. In pharetra non ex vel varius.</p>
-		<a class="vermas" href="">Ver Más <i class="material-icons">keyboard_arrow_right</i></a>
+		<p>Vive la Experiencia DMD enCinépolis y 
+descubre las novedades que SOLIDWORKS 
+tiene para ti.</p>
+		<a class="vermas" href="#myModal" data-toggle="modal">Ver Más <i class="material-icons">keyboard_arrow_right</i></a>
 		</div>
 	</article>	
 
@@ -88,9 +92,11 @@ adipiscing elit. In pharetra non ex vel varius.</p>
 		<div class="object-content">	
 		<img src="assets/images/dmd_11.jpg" alt="">
 		<h3>Top 10 Novedades</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur
-adipiscing elit. In pharetra non ex vel varius.</p>
-		<a class="vermas" href="">Ver Más <i class="material-icons">keyboard_arrow_right</i></a>
+		<p>Gracias a una mayor potencia y rendimiento, 
+SOLIDWORKS te permite diseñar y crear 
+tus proyectos de una forma más productiva 
+e intuitiva.</p>
+		<a class="vermas" href="#myModal" data-toggle="modal">Ver Más <i class="material-icons">keyboard_arrow_right</i></a>
 		</div>
 	</article>	
 
@@ -102,9 +108,9 @@ adipiscing elit. In pharetra non ex vel varius.</p>
 		<div class="object-content">	
 		<img src="assets/images/dmd_13.jpg" alt="">
 		<h3>Recorrido por el portafolio de soluciones</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur
-adipiscing elit. In pharetra non ex vel varius.</p>
-		<a class="vermas" href="">Ver Más <i class="material-icons">keyboard_arrow_right</i></a>
+		<p>Entra a nustro portafolio y solicita una 
+demostración.</p>
+		<a class="vermas" href="#myModal" data-toggle="modal">Ver Más <i class="material-icons">keyboard_arrow_right</i></a>
 		</div>
 	</article>	
 
@@ -116,9 +122,11 @@ adipiscing elit. In pharetra non ex vel varius.</p>
 		<div class="object-content">	
 		<img src="assets/images/dmd_18.jpg" alt="">
 		<h3>SOLIDWORKS<sup>®</sup> en la actualidad</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur
-adipiscing elit. In pharetra non ex vel varius.</p>
-		<a class="vermas" href="">Ver Más <i class="material-icons">keyboard_arrow_right</i></a>
+		<p>Descubre como DMD y SOLIDWORKS han
+ ayudado a grandes empresas a superar 
+desafíos extremos y obtener el mejor retorno 
+de inversión.</p>
+		<a class="vermas" href="#myModal" data-toggle="modal">Ver Más <i class="material-icons">keyboard_arrow_right</i></a>
 		</div>
 	</article>	
 
@@ -130,9 +138,9 @@ adipiscing elit. In pharetra non ex vel varius.</p>
 		<div class="object-content">	
 		<img src="assets/images/dmd_20.jpg" alt="">
 		<h3>Descargas</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur
-adipiscing elit. In pharetra non ex vel varius.</p>
-		<a class="vermas" href="">Ver Más <i class="material-icons">keyboard_arrow_right</i></a>
+		<p>Obtén contenido de SOLIDWORKS 2017 con 
+tan solo un clic.</p>
+		<a class="vermas" href="#myModal" data-toggle="modal">Ver Más <i class="material-icons">keyboard_arrow_right</i></a>
 		</div>
 	</article>	
 
@@ -144,9 +152,10 @@ adipiscing elit. In pharetra non ex vel varius.</p>
 		<div class="object-content">	
 		<img src="assets/images/dmd_22.jpg" alt="">
 		<h3>Casos de éxito</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur
-adipiscing elit. In pharetra non ex vel varius.</p>
-		<a class="vermas" href="">Ver Más <i class="material-icons">keyboard_arrow_right</i></a>
+		<p>Descubre como DMD y SOLIDWORKS han 
+ayudado a grandes empresas a superar desafíos 
+extremos y obtener el mejor retorno de inversión.</p>
+		<a class="vermas" href="#myModal" data-toggle="modal">Ver Más <i class="material-icons">keyboard_arrow_right</i></a>
 		</div>
 	</article>	
 
@@ -158,8 +167,8 @@ adipiscing elit. In pharetra non ex vel varius.</p>
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close col-sm-1" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title col-sm-5" id="myModalLabel">Regístrate</h4>
-        <p class="col-sm-6"><a href="">¿Ya tienes una cuenta?</a></p>
+        <h4 class="modal-title col-xs-5 col-sm-5" id="myModalLabel">Regístrate</h4>
+        <p class="col-xs-6 col-sm-6"><a href="">¿Ya tienes una cuenta?</a></p>
       </div>
       <div class="modal-body">
         <form>

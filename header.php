@@ -39,6 +39,46 @@
     </div>
 </section>
 
+<!--ModalInICIAR SESION-->
+<div class="modal fade bs-example-modal-sm" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close col-sm-1" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title col-xs-11" id="myModalLabel">Inicia Sesión</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+		  <div class="form-group col-sm-12">
+		    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="*Email">
+		  </div>
+		  <div class="form-group col-sm-12">
+		    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="*Password">
+		  </div>
+		  <div class="checkbox col-sm-12">
+		    <label>
+		      <input type="checkbox" class="input-checkbox"> Mantener la sesión iniciada</a></label>
+		  </div>
+		 
+		  <button type="submit" class="btn btn-default">Iniciar Sesión</button>
+		</form>
+			
+		<a class="contrasena" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+  		¿Has olvidado tu contraseña?<br>
+		</a>
+		<div class="collapse" id="collapseExample">
+		  	<form action="">
+		     <div class="form-group col-sm-12">
+		    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="*Email">
+	  		</div>
+	  		</form>
+		</div>
+      </div>
+     
+    </div>
+  </div>
+</div>
+
 
 
 <header class="clearMargin">
@@ -46,7 +86,7 @@
 		<div class="contacto-top">
 		<p><i class="glyph-icon flaticon-technology"></i><span>Ventas <br></span><a href="">01 800 890 90 38</a></p>
 		<p><i class="glyph-icon flaticon-business"></i><span>Soporte <br></span><a href="">01 800 363 43 57</a></p>
-		<p><i class="glyph-icon flaticon-people"></i><span><strong><a href="#">Inicia<br> Sesión</a></strong></span></p>
+		<p><i class="glyph-icon flaticon-people"></i><span><strong><a href="#myModal2" data-toggle="modal" data-target=".bs-example-modal-sm">Inicia<br> Sesión</a></strong></span></p>
 		</div>
 	</section>
 

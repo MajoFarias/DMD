@@ -64,7 +64,7 @@ a, button{
 			top: 58px;
 		}
 		@media (max-width:480px){
-			top: 83px;
+			top: 77px;
 		}
 	}
 
@@ -96,6 +96,9 @@ body{
  			background-color: #eee;
     		width: 350px;
     		padding: 20px 30px 27px;
+    		@media (max-width:480px){
+    			width: 250px;
+    		}
     		h3{
     			font-size: 17px;
     			font-weight: 600;
@@ -165,6 +168,9 @@ body{
 	-webkit-transition: linear .35s;
 			transition: linear .35s;
 	right: -351px;
+	@media (max-width:480px){
+		right: -250px;
+	}
 }
 
 .stickycontact.active{
@@ -183,8 +189,17 @@ header{
 h1{
 	font-size:46px;
 	font-weight:600;
+	@media (max-width:768px){
+		padding:0 5%;
+	}
+	@media (max-width:480px){
+		font-size:30px;
+	}
 	sup{
 		font-size: 20px;
+		@media (max-width:480px){
+		font-size:15px;
+		}
 	}
 }
 
@@ -396,6 +411,12 @@ h3{
 		max-width:initial;
 	}
 
+	.carousel-indicators{
+		@media (max-width:769px){
+			left: 49%;
+		}
+	}
+
 	.carousel-caption{
 		top:270px;
 		bottom:0;
@@ -475,6 +496,18 @@ h3{
 
 	}
 
+	p{
+		margin-top:100px;
+		@media (max-width:768px){
+			display: none;
+		}
+		a{
+			img{
+				width:50px;
+			}
+		}
+	}
+
 	sup{
 		font-size: 37px;
 		@media (max-width:992px){
@@ -486,6 +519,9 @@ h3{
 
 .first{
 	padding:80px 0 0 0;
+	@media (max-width:768px){
+		padding:50px 0 0 0;
+	}
 	h1:after{
 	content: "";
     display: block;
@@ -505,6 +541,14 @@ h3{
 	    line-height: 30px;
 	    text-align: center;
 	    color:$black;
+	    @media (max-width:992px){
+	    	padding-left:0;
+	    	padding-right:0;
+	    }
+	    @media (max-width:768px){
+	    	padding-left:5%;
+	    	padding-right:5%;
+	    }
 	    sup{
 		font-size: 12px;
 		}
@@ -527,6 +571,15 @@ h3{
     		margin-left:0px;
     		margin-bottom:60px;
     		padding-bottom:30px;
+    		@media (max-width:768px){
+    			width: 70%;
+    			margin: 0 auto;
+    			border-right: 1px solid transparent;
+    			margin-bottom:30px;
+    		}
+    		@media (max-width:480px){
+    			width: 90%;
+    		}
 
     		img{
     			width: 100%;
@@ -543,6 +596,12 @@ h3{
     		font-weight: 600;
     		color:black;
     		text-align: left;
+    		@media (max-width:1280px){
+    			padding: 100px 15px 40px;
+    		}
+    		@media (max-width:992px){
+    			padding: 50px 15px 40px;
+    		}
     		sup{
 			font-size: 15px;
 			}
@@ -557,6 +616,10 @@ h3{
     		padding:0px 35px;
     		text-align: left !important;
     		position:relative;
+    		@media (max-width:992px){
+    			padding:0 15px;
+    		}
+
     		i{
     			background-color: $red2;
     			border-radius: 50px;
@@ -595,6 +658,9 @@ h3{
     		padding:0px 35px;
     		margin-bottom:30px;
     		text-align: left;
+    		@media (max-width:1280px){
+    			padding:0px 15px;
+    		}
 		}
 
 }
@@ -604,18 +670,28 @@ h3{
 	margin:auto;
 	text-align:center;
 	padding:50px;
+	@media (max-width:480px){
+		padding:50px 3%;
+	}
 
 	img{
 		height: 70px;
 		padding-right:20px;
 		padding-left:20px;
 		margin-bottom: 20px;
+		@media (max-width:480px){
+		padding-right:0px;
+		padding-left:0px;
+		}
 	}
 
 	img:nth-child(1){
 		border-right:1px solid white; 
 		margin-left:50px;
-
+		@media (max-width:689px){
+			border-right:initial;
+			margin-left:0;
+		}
 	}
 
 	p{
@@ -645,6 +721,9 @@ footer{
 	background-color:black;
 	color:white;
 	padding:70px 0 0 0;
+	@media (max-width:480px){
+		padding:40px 0 0 0;
+	}
 	a{
 		color:white;
 		transition: color .5s;
@@ -661,6 +740,9 @@ footer{
     	text-transform: uppercase;
     	@include nopadding;
     	margin-bottom:50px;
+    	@media (max-width:768px){
+    		margin-bottom: 20px;
+    	}
 
 	}
 	section:nth-child(1){
@@ -668,24 +750,51 @@ footer{
 		margin:auto;
 		@include flexFlow;
 		padding-bottom:70px;
+		@media (max-width:1280px){
+			width:90%;
+		}
 		.solidwork{
 			width: 50%;
+			@media (max-width:768px){
+				margin-bottom: 30px;
+			}
 			@include flexFlow;
+				@media (max-width:992px){
+					width: 65%;
+				}
+				@media (max-width:768px){
+					width: 100%;
+				}
 			ul{
 				width: 50%;
 				@include nopadding;
 				font-weight:400;
 				font-size: 14px;
+				padding-left: 20px;
+				@media (max-width:480px){
+					width:100%;
+				}
 				li{
 					margin-bottom: 10px;
+					padding-left: 10px;
 				}
 			}
 		}
 		.contactanos{
 			width: 50%;
 			@include flexFlow;
+				@media (max-width:992px){
+					width: 35%;
+				}
+				@media (max-width:768px){
+					width: 100%;
+				}
+			
 			h3{
 				margin-bottom:0px;
+				@media (max-width:768px){
+					margin-bottom: 50px;
+				}
 			}
 			div{
 				width:33%;
@@ -696,6 +805,22 @@ footer{
 				}
 				a{
 					font-weight:700;
+				}
+			}
+
+			div:nth-child(2){
+				width:42%;
+				@media (max-width:992px){
+					width: 100%;
+				}
+			}
+			div:nth-child(3), div:nth-child(4) {
+				width:29%;
+				@media (max-width:992px){
+					width:50%;
+				}
+				@media (max-width:480px){
+					width: 100%;
 				}
 			}
 		}
@@ -711,6 +836,10 @@ footer{
 
 
 //Modal
+.modal{
+	z-index: 999999;
+}
+
 .modal-dialog{
 	margin-top:100px;
 }
@@ -741,8 +870,23 @@ footer{
 		font-size: 30px;
 		margin-top:-20px;
 		margin-right: -15px;
+		@media (max-width:768px){
+			padding-right: 10px;
+		}
 	}
 }
+
+
+.contrasena{
+	color:$blue;
+	margin: 0 10px;
+	&:focus, &:active, &:hover{
+		color:$blue;
+	}
+}
+
+
+
 
 .modal-body{
 	padding: 35px 15px 35px 15px;

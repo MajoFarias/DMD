@@ -72,6 +72,9 @@ h1 {
     width: 30px;
     top: 65px;
   }
+  @media (max-width:480px){
+    top: 83px;
+  }
   &:hover {
     opacity: .7;
   }
@@ -175,6 +178,9 @@ h1 {
     display: inline-block;
     position: relative;
     height: 100%; 
+    @media (max-width:768px){
+      padding: 0 30px;
+    }
     
     li {
       display: block;
@@ -184,6 +190,11 @@ h1 {
       position: relative;
       opacity: 0;
       color:white;
+      @media (max-width:768px){
+        height: initial;
+        margin-bottom:20px;
+        min-height: initial;
+      }
       
       a {
         position: relative;
