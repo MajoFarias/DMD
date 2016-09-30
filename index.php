@@ -168,7 +168,7 @@ extremos y obtener el mejor retorno de inversión.</p>
       <div class="modal-header">
         <button type="button" class="close col-sm-1" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title col-xs-5 col-sm-5" id="myModalLabel">Regístrate</h4>
-        <p class="col-xs-6 col-sm-6"><a href="">¿Ya tienes una cuenta?</a></p>
+        <p class="col-xs-6 col-sm-6"><a href="#myModal2" data-toggle="modal">¿Ya tienes una cuenta?</a></p>
       </div>
       <div class="modal-body">
         <form>
@@ -205,13 +205,42 @@ extremos y obtener el mejor retorno de inversión.</p>
 		  <div class="form-group col-sm-6">
 		    <input type="text" class="form-control" id="exampleInputApellido1" placeholder="*Codigo Postal">
 		  </div>
-		  <!--<select class="form-control col-sm-12">
-		  <option>Estado</option>
-		  <option>2</option>
-		  <option>3</option>
-		  <option>4</option>
-		  <option>5</option>
-		</select>-->
+		  <select class="form-control col-sm-12">
+		  <option value="" selected="selected">Estado</option>
+           <option value="Aguascalientes">Aguascalientes</option>
+           <option value="Baja California">Baja California</option>
+           <option value="Baja California Sur">Baja California Sur</option>
+           <option value="Campeche">Campeche</option>
+           <option value="Coahuila de Zaragoza">Coahuila de Zaragoza</option>
+           <option value="Colima">Colima</option>
+           <option value="Chiapas">Chiapas</option>
+           <option value="Chihuahua">Chihuahua</option>
+           <option value="Distrito Federal">Distrito Federal</option>
+           <option value="Durango">Durango</option>
+           <option value="Guanajuato">Guanajuato</option>
+           <option value="Guerrero">Guerrero</option>
+           <option value="Hidalgo">Hidalgo</option>
+           <option value="Jalisco">Jalisco</option>
+           <option value="México">México</option>
+           <option value="Michoacán de Ocampo">Michoacán de Ocampo</option>
+           <option value="Morelos">Morelos</option>
+           <option value="Nayarit">Nayarit</option>
+           <option value="Nuevo León">Nuevo León</option>
+           <option value="Oaxaca">Oaxaca</option>
+           <option value="Puebla">Puebla</option>
+           <option value="Querétaro">Querétaro</option>
+           <option value="Quintana Roo">Quintana Roo</option>
+           <option value="San Luis Potosí">San Luis Potosí</option>
+           <option value="Sinaloa">Sinaloa</option>
+           <option value="Sonora">Sonora</option>
+           <option value="Tabasco">Tabasco</option>
+           <option value="Tamaulipas">Tamaulipas</option>
+           <option value="Tlaxcala">Tlaxcala</option>
+           <option value="Veracruz de Ignacio de la Llave">Veracruz de Ignacio de la Llave</option>
+           <option value="Yucatán">Yucatán</option>
+           <option value="Zacatecas">Zacatecas</option>
+           <option value="Fuera de MX">Fuera de MX</option>
+		</select>
 		  <div class="checkbox col-sm-12">
 		    <label>
 		      <input type="checkbox" class="input-checkbox"> To continue, you must agree to receive communications according to the Dassault Systèmes SolidWorks Corporation <a href="http://www.solidworks.com/sw/privacypolicy.htm" target="_blank">Aviso de privacidad</a></label>

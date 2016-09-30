@@ -44,13 +44,13 @@
   <div class="modal-dialog modal-sm" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close col-sm-1" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <button type="button" class="close close2 col-sm-1" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title col-xs-11" id="myModalLabel">Inicia Sesión</h4>
       </div>
       <div class="modal-body">
         <form>
 		  <div class="form-group col-sm-12">
-		    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="*Email">
+		    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="*Usuario">
 		  </div>
 		  <div class="form-group col-sm-12">
 		    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="*Password">
@@ -67,11 +67,13 @@
   		¿Has olvidado tu contraseña?<br>
 		</a>
 		<div class="collapse" id="collapseExample">
-		  	<form action="">
+			<div class="well">
+		  	<form>
 		     <div class="form-group col-sm-12">
 		    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="*Email">
 	  		</div>
 	  		</form>
+	  		</div>
 		</div>
       </div>
      
