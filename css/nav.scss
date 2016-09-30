@@ -5,7 +5,6 @@ $color-active: #FFF;
 $color-link: #FFF;
 
 $button-height: 27px;
-$button-width: 35px;
 
 .container2 {
   position: absolute;
@@ -56,17 +55,23 @@ h1 {
 
 .button_container {
   position: fixed;
-  top: 8%;
-  right: 9%;
+  top: 85px;
+  right: 16%;
   height: $button-height;
-  width: $button-width;
+  width: 35px;
   cursor: pointer;
   z-index: 100;
   transition: opacity .25s ease;
-  @media (max-width:1200px){
-    right: 3%;
+  @media (max-width:1480px){
+    right: 9%;
   }
-  
+  @media (max-width:1280px){
+    right: 2%;
+  }
+  @media (max-width:768px){
+    width: 30px;
+    top: 65px;
+  }
   &:hover {
     opacity: .7;
   }

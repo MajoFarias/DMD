@@ -17,10 +17,10 @@
 		<source src="assets/images/dmd-video.mp4" type="video/mp4">
 		</video>
 	      <div class="carousel-caption">
-	        <h1>SOLIDWORKS<sup>®</sup> 2017</h1>
-	        <h2>La potencia que necesita para impulsar la inovación</h2>
-	        <h3>Explore la potencia y el rendimiento que le ofrece el nuevo SOLIDWORKS 2017<br>
-para convertir rápidamente sus ideas en productos acabados</h3>
+	        <h1>Conoce SOLIDWORKS<sup>®</sup> 2017</h1>
+	        <h2>The power you need to drive innovation</h2>
+	        <h3>Descubre el nuevo poder y desempeño de SOLIDWORKS<sup>®</sup> 2017
+para convertir rápidamente tus ideas en productos terminados.</h3>
 	      </div>
 	    </div>
 	    <div class="item item-video">
@@ -28,10 +28,10 @@ para convertir rápidamente sus ideas en productos acabados</h3>
 		<source src="assets/images/dmd-video.mp4" type="video/mp4">
 		</video>
 	      <div class="carousel-caption">
-	        <h1>Solidworks<sup>®</sup></h1>
-	        <h2>La potencia que necesita para impulsar la inovación</h2>
-	        <h3>Explore la potencia y el rendimiento que le ofrece el nuevo SOLIDWORKS 2017<br>
-para convertir rápidamente sus ideas en productos acabados</h3>
+	        <h1>Conoce SOLIDWORKS<sup>®</sup> 2017</h1>
+	        <h2>The power you need to drive innovation</h2>
+	        <h3>Descubre el nuevo poder y desempeño de SOLIDWORKS<sup>®</sup> 2017
+para convertir rápidamente tus ideas en productos terminados.</h3>
 	      </div>
 	    </div>
 
@@ -40,10 +40,10 @@ para convertir rápidamente sus ideas en productos acabados</h3>
 		<source src="assets/images/dmd-video.mp4" type="video/mp4">
 		</video>
 	      <div class="carousel-caption">
-	        <h1>Solidworks<sup>®</sup></h1>
-	        <h2>La potencia que necesita para impulsar la inovación</h2>
-	        <h3>Explore la potencia y el rendimiento que le ofrece el nuevo SOLIDWORKS 2017<br>
-para convertir rápidamente sus ideas en productos acabados</h3>
+	        <h1>Conoce SOLIDWORKS<sup>®</sup> 2017</h1>
+	        <h2>The power you need to drive innovation</h2>
+	        <h3>Descubre el nuevo poder y desempeño de SOLIDWORKS<sup>®</sup> 2017
+para convertir rápidamente tus ideas en productos terminados.</h3>
 	      </div>
 	    </div>
 	  <!--  <div class="item">
@@ -62,7 +62,7 @@ para convertir rápidamente sus ideas en productos acabados</h3>
 
 <section class="first container">
 	<h1>Novedades de Solidworks<sup>®</sup> 2017</h1>
-	<h2>Gracias a la mayor potencia y rendimiento del núcleo y las nuevas funciones para tecnologías emergentes, <strong>nunca ha sido tan fácil diseñar y crear con SOLIDWORKS<sup>®</sup></strong>, la solución de diseño y desarrollo preferida por más de 3,1 millones de usuarios de todo el mundo. A continuación se muestran algunas de las nuevas características principales que le ayudarán a mejorar su flujo de trabajo.</h2>
+	<h2>Gracias a la mayor potencia y rendimiento del núcleo y las nuevas funciones para tecnologías emergentes, <strong>nunca ha sido tan fácil diseñar y crear con SOLIDWORKS<sup>®</sup></strong>, la solución de diseño y desarrollo preferida por más de 3,3 millones de usuarios de todo el mundo. A continuación se muestran algunas de las nuevas características principales que le ayudarán a mejorar su flujo de trabajo.</h2>
 </section>
 
 <section class="eventos">
@@ -164,46 +164,37 @@ adipiscing elit. In pharetra non ex vel varius.</p>
       <div class="modal-body">
         <form>
 		  <div class="form-group col-sm-6">
-		    <label for="exampleInputEmail1">Email address</label>
-		    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+		    
+		    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="*Email">
 		  </div>
 		  <div class="form-group col-sm-6">
-		    <label for="exampleInputPassword1">Password</label>
-		    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-		  </div>
-
-		  <div class="form-group col-sm-6">
-		    <label for="exampleInputEmail1">Nombre</label>
-		    <input type="Nombre" class="form-control" id="exampleInputNombre1" placeholder="Nombre">
+		    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="*Password">
 		  </div>
 
 		  <div class="form-group col-sm-6">
-		    <label for="exampleInputEmail1">Apellido</label>
-		    <input type="text" class="form-control" id="exampleInputApellido1" placeholder="Apellido">
+		    <input type="Nombre" class="form-control" id="exampleInputNombre1" placeholder="*Nombre">
+		  </div>
+
+		  <div class="form-group col-sm-6">
+		    <input type="text" class="form-control" id="exampleInputApellido1" placeholder="*Apellido">
 		  </div>
 		  <div class="form-group col-sm-6">
-		    <label for="exampleInputEmail1">Puesto</label>
-		    <input type="text" class="form-control" id="exampleInputApellido1" placeholder="Puesto">
+		    <input type="text" class="form-control" id="exampleInputApellido1" placeholder="*Puesto">
 		  </div>
 		  <div class="form-group col-sm-6">
-		    <label for="exampleInputEmail1">Compañia</label>
-		    <input type="text" class="form-control" id="exampleInputApellido1" placeholder="Compañia">
+		    <input type="text" class="form-control" id="exampleInputApellido1" placeholder="*Compañia">
 		  </div>
 		  <div class="form-group col-sm-6">
-		    <label for="exampleInputEmail1">Teléfono</label>
-		    <input type="text" class="form-control" id="exampleInputApellido1" placeholder="Teléfono">
+		    <input type="text" class="form-control" id="exampleInputApellido1" placeholder="*Teléfono">
 		  </div>
 		  <div class="form-group col-sm-6">
-		    <label for="exampleInputEmail1">Dirección</label>
-		    <input type="text" class="form-control" id="exampleInputApellido1" placeholder="Dirección">
+		    <input type="text" class="form-control" id="exampleInputApellido1" placeholder="*Dirección">
 		  </div>
 		  <div class="form-group col-sm-6">
-		    <label for="exampleInputEmail1">Ciudad</label>
-		    <input type="text" class="form-control" id="exampleInputApellido1" placeholder="Ciudad">
+		    <input type="text" class="form-control" id="exampleInputApellido1" placeholder="*Ciudad">
 		  </div>
 		  <div class="form-group col-sm-6">
-		    <label for="exampleInputEmail1">Código Postal</label>
-		    <input type="text" class="form-control" id="exampleInputApellido1" placeholder="Codigo Postal">
+		    <input type="text" class="form-control" id="exampleInputApellido1" placeholder="*Codigo Postal">
 		  </div>
 		  <!--<select class="form-control col-sm-12">
 		  <option>Estado</option>
@@ -214,7 +205,7 @@ adipiscing elit. In pharetra non ex vel varius.</p>
 		</select>-->
 		  <div class="checkbox col-sm-12">
 		    <label>
-		      <input type="checkbox"> To continue, you must agree to receive communications according to the Dassault Systèmes SolidWorks Corporation <a href="http://www.solidworks.com/sw/privacypolicy.htm" target="_blank">Aviso de privacidad</a></label>
+		      <input type="checkbox" class="input-checkbox"> To continue, you must agree to receive communications according to the Dassault Systèmes SolidWorks Corporation <a href="http://www.solidworks.com/sw/privacypolicy.htm" target="_blank">Aviso de privacidad</a></label>
 		  </div>
 		  <button type="submit" class="btn btn-default">Enviar</button>
 		</form>
@@ -224,13 +215,7 @@ adipiscing elit. In pharetra non ex vel varius.</p>
   </div>
 </div>
 
-<section class="third container-fluid">
-	<img src="assets/images/dmd-white.png" alt="">
-	<img src="assets/images/solidworks-white.png" alt="">
-	<p>Sigue nuestras redes sociales</p>
-	<a href=""><i class="glyph-icon flaticon-social-media"></i></a>
-	<a href=""><i class="glyph-icon flaticon-social-media-1"></i></a>
-</section>
+<?php include('footer.php'); ?>
 
 
 
@@ -240,38 +225,3 @@ adipiscing elit. In pharetra non ex vel varius.</p>
 
 
 
-
-	<!--Jquery-->
-	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-	<script src="assets/js/bootstrap.js"></script>
-	<script>
-		//Menu//
-
-	  $(document).ready(function(){
-
-	   $('#toggle').click(function() {
-		   $(this).toggleClass('active');
-		   $('#overlay').toggleClass('open');
-		});
-
-	  $('.carousel').carousel({
-  		interval: 5000
-	  });
-
-	  $(document).on('click', '.contact-opener', function(event) {
-	  	event.preventDefault();
-	  	var parent = $(this).parent();
-	  	if($(parent).hasClass('active')){
-	  		$(parent).removeClass('active').addClass('inactive');
-	  	}
-	  	else if($(parent).hasClass('inactive')){
-	  		$(parent).removeClass('inactive').addClass('active');
-	  	}
-	  });
-
-
-	 });
-
-	</script>
-</body>
-</html>
