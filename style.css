@@ -6958,7 +6958,11 @@ a, button {
       top: 58px; } }
   @media (max-width: 480px) {
     .addMargin .button_container {
+<<<<<<< HEAD
       top: 83px; } }
+=======
+      top: 58px; } }
+>>>>>>> b2082f85a3862e96824905c8a3e55a77f80a12ae
 .addMargin .social-header {
   padding-top: 17px; }
   .addMargin .social-header a {
