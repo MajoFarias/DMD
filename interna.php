@@ -37,19 +37,19 @@
                         	</li>
                             <li>
                                 <i class="flaticon-arrows red"></i>
-                                <p>Mejora de la herramienta envolver.</p>
+                                <p>Mejora de la herramienta envolver</p>
                             </li>
                             <li>
                                 <i class="flaticon-arrows red"></i>
-                                <p>Mejora de la herramienta envolver.</p>
+                                <p>Mejora de la herramienta envolver</p>
                             </li>
                             <li>
                                 <i class="flaticon-arrows red"></i>
-                                <p>Mejora de la herramienta envolver.</p>
+                                <p>Mejora de la herramienta envolver</p>
                             </li>
                             <li>
                                 <i class="flaticon-arrows red"></i>
-                                <p>Mejora de la herramienta envolver.</p>
+                                <p>Mejora de la herramienta envolver</p>
                             </li>
                         </ul>
                      
