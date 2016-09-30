@@ -22,8 +22,30 @@
 
 }
 
+@mixin contentSmall{
+  max-width: 1177px;
+  margin: 0 auto;
+  width: 100%;
+  padding-left: 18px;
+  padding-right: 18px;
+  // @media (min-width: 992px) {
+  //   margin-left: 0;
+  //   margin-right: 0;
+  // }
+}
 
 
+@mixin cover {
+ -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important; 
+}
 
 
+@mixin cero {
+  padding: 0;
+  margin: 0;
+  }
 
+  
