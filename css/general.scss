@@ -295,6 +295,7 @@ h3{
 
 		i{
 			color:$bluelight;
+			margin-left:15px;
 			@media (max-width:768px){
 				display: none;
 			}
@@ -702,6 +703,7 @@ h3{
 	a{
 		color:white;
 		text-decoration: none;
+		padding-right:15px;
 		[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 		[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
 		font-size:30px;
@@ -777,6 +779,7 @@ footer{
 				li{
 					margin-bottom: 10px;
 					padding-left: 10px;
+					list-style-type: disc;
 				}
 			}
 		}
@@ -792,8 +795,11 @@ footer{
 			
 			h3{
 				margin-bottom:0px;
-				@media (max-width:768px){
+				@media (max-width:992px){
 					margin-bottom: 50px;
+				}
+				@media (max-width:768px){
+					margin-bottom: 20px;
 				}
 			}
 			div{
@@ -969,6 +975,44 @@ footer{
 select.form-control{
 	margin: 0 15px 15px 15px;
     width: 95%;
+}
+
+
+.modales{
+	padding: 20px;
+}
+
+.dialog-size{
+	@media (max-width:768px){
+		width:400px;
+		margin:100px auto;
+	}
+	@media (max-width:480px){
+		width:320px;
+		margin:100px auto;
+	}
+	iframe{
+		width: 560px;
+		height: 360px;
+		@media (max-width:768px){
+			width: 360px;
+			height: 280px;
+		}
+		@media (max-width:480px){
+			width: 280px;
+			height: 180px;
+		}
+	}
+
+}
+
+.h2-interna{
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 30px;
+    text-align: center;
+    color:$black;
+    margin-top:-20px;
 }
 
 

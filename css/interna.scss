@@ -13,13 +13,14 @@
 	display: inline-block;
 	width: 100%;
 	height:200px;
-	 @media (min-width: 992px) {
+	padding-top: 40px;
+	@media (min-width: 768px) {
         height:250px;
         padding-top: 80px;
 	 }
 	@include cover;
 	h2{
-		font-weight: 500;
+		font-weight: 600;
 		font-size:  36px;
 		  @media (min-width: 992px) {
 		  	font-size:  48px;
@@ -70,17 +71,18 @@
 		  @media (min-width: 450px) {
 		  	.content{
 			    iframe{
-			    	height: 380px;
+			    	height: 430px;
 			    }
 		    }
 		  }
-		  @media (min-width: 768px) {}
+		 @media (min-width: 768px) {}
 	     @media (min-width: 992px) {
 	     	.content{
 	     		margin: 36px 0 64px;
 	     		iframe{
 	     			width: 65%;
 	     			height: auto;
+	     			max-height: 552px;
 	     		}
 		     	.textHead{
 		     		width: 35%;
@@ -92,7 +94,7 @@
 
 /////GER
 a:focus{
-	color: #2f5685;
+	color: white;
 	text-decoration: none;
 }
 .btn-red{
@@ -152,7 +154,7 @@ a:focus{
 	color: #2f5685;
 }
 .red{
-	color: #c4211a;
+	color: $red2;
 	&:hover{
 		text-decoration: none;
 
@@ -171,6 +173,7 @@ a:focus{
 }
 h1.line{
 	font-size: 22px;
+	font-weight:600;
 	 @media (min-width: 992px) {
 	 	font-size: 36px;
 	 }
@@ -195,6 +198,7 @@ h1.line{
 	border-color: transparent !important;
 	font-size: 20px;
 	font-weight: 500;
+	h4{font-weight:600;}
 }
 .containerIn{
 	padding-bottom: 124px;
@@ -211,8 +215,7 @@ h1.line{
 .paddingAll{
 	padding: 18px 36px;
 	@media (min-width: 768px) {
-	padding: 54px 36px;
-
+	padding: 34px 36px 54px;
 	}
 }
 ul.general{
@@ -231,16 +234,9 @@ ul.general{
        }
        i{
        	width: 8%;
-       	margin: 0;
+       	margin: -2px 0 0 0;
        	padding:0;
-       	:after{
-       	[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
-		[class^="flaticon-"]:after, [class*=" flaticon-"]:after {  
-			font-size: 20px;
-			font-style: normal;
-			margin-left: -20 !important;
-		}	
-       	}
+
        }
 	}
 	 @media (min-width: 768px) {
@@ -251,6 +247,9 @@ ul.generalTwo{
 	@include cero;
 	margin-bottom: 140px;
 	width:100%;
+	 @media (min-width: 992px) {
+	 	margin-bottom: 70px;
+	 }
 	li{
 	   @include flexFlow;
        list-style: none; 
@@ -264,8 +263,9 @@ ul.generalTwo{
        }
        i{
        	width: 8%;
-       	margin: 0;
-       	padding:0;
+       	margin: 0 4px 0 0;
+       	padding: 2px 0 0;
+       	font-size: 13px;
        	[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 		[class^="flaticon-"]:after, [class*=" flaticon-"]:after {  
 			font-size: 20px;
@@ -292,6 +292,11 @@ ul.generalThree{
          font-weight: 400;
            color: #787878;
            line-height: 22px;
+           a{
+           	&:focus, &:active{
+           		color:$red2;
+           	}
+           }
        }
        i{
        	width: 8%;
@@ -319,12 +324,10 @@ ul.generalThree{
 }
 .panelFlex{
 	width: 100%;
-	border-bottom: 1px solid rgba( #333333, .2);
 	
 	   @media (min-width: 768px) {
 	    	width: 48%;
 	    	margin: 0 .65% 2%;
-	    	 border: 1px solid rgba( #333333, .2);
 	    }
 	    @media (min-width: 992px) {
 			width: 32%;
@@ -335,7 +338,6 @@ ul.generalThree{
 .panelFlexLarge{
 	width: 100%;
 	max-width: 420px;
-	border-bottom: 1px solid rgba( #333333, .2);
 	padding: 0 36px 54px;
 	margin-left: auto;
 	margin-right: auto;
@@ -344,6 +346,8 @@ ul.generalThree{
 	   @media (min-width: 768px) {
 	    	width: 50%;
 	    	border-bottom: none;
+	    	margin-left:0;
+			margin-right:0;
 	    }
 	    @media (min-width: 992px) {
 			width: 33.3%;
@@ -359,28 +363,15 @@ figure.img{
 .flex{
 	width: 100%;
 	@include flexFlow;
-	.panelFlexLarge:nth-child(odd){
-		border-right: none;
-		 @media (min-width: 768px) {
-		   border-right: 1px solid rgba( #333333, .2);
-	     }
-	      @media (min-width: 992px) {
-	      	border-right: none;
-	      }
-	}
 	.panelFlexLarge{
-		border-left:  none;
-		border-right: none;
-		 @media (min-width: 992px) {
-		border-left: 1px solid rgba( #333333, .2);
-		border-right: 1px solid rgba( #333333, .2);
-	    }
+		border-right:1px solid white;
+		@media (min-width:768px){
+			border-right:1px solid $grey;
+		}
 	}
-	.panelFlexLargep:nth-child(3n+3), .panelFlexLargep:nth-child(3n+1) {
-        border-left:  none;
-		border-right: none;
-       }
-
+	.panelFlexLarge:nth-child(3), .panelFlexLarge:nth-child(6) {
+		border-right:1px solid white;
+	}
 }
 .btnB{
 	position: relative;
@@ -406,7 +397,20 @@ figure.img{
 		bottom: 54px;
 	}
 }
-
+.iframeLarge{
+	width: 95%;
+	margin: 0 auto;
+	height: 200px;
+	@media (min-width:420px){
+		height: 280px;
+	}
+	@media (min-width:768px){
+			height: 420px;
+	}
+	  @media (min-width:992px){
+	  		height: 600px;
+	  }
+}
 
 ul {list-style-type: none;}
 body {font-family: Verdana, sans-serif;}

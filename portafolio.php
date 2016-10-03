@@ -1,8 +1,8 @@
 <?php include('header.php'); ?>
 
- <section class="headerIn" style="background: url('assets/images/dmd-bg.jpg') center;">
+ <section class="headerIn" style="background: url('assets/images/eyec.jpg') center;">
  	<div class="contentSmall">
- 	<h2 class="white">TITLE</h2>
+ 	<h2 class="white">SOLIDWORKS® 2017</h2>
  	</div>
  </section>
 
@@ -16,10 +16,12 @@
                   Recorrido por el portafolio de soluciones 
                 </h1>
                 <div class="textHead paddingAll text-center">
+                  <h2 class="h2-interna">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                      ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
                      reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </h2>
                 </div>
             </div>
          <hr>
@@ -37,12 +39,12 @@
                             <ul class="generalThree">
                                 <li>
                                     <i class="flaticon-arrows red"></i>
-                                    <p>Mejora de la herramienta envolver.</p>
+                                    <p>SOLIDWORKS 3D CAD | <a href="#3dcad" data-toggle="modal">Ver video</a></p>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                  <a class="btn-red btnC"href="#" data-toggle="modal" data-target=".bs-example-modal-lg" >SOLICITAR DEMO</a>
+                  <a class="btn-red btnC"href="#" data-toggle="modal" data-target="#solicitar">SOLICITAR DEMO</a>
                 </div>
                 <!--  MÓDULO -->
 
@@ -51,21 +53,21 @@
                 <div class="panelFlexLarge btnB">
                     <div class="panel-default ">
                         <figure class="img">
-                            <img src="assets/images/porta.jpg" alt="">
+                            <img src="assets/images/porta2.jpg" alt="">
                         </figure>
                         <div class="panel-heading">
-                            <h4>Desarrollo de nuevos productos </h4>
+                            <h4>Diseño de nuevos productos</h4>
                         </div>
                         <div class="panel-body">
                             <ul class="generalThree">
                                 <li>
                                     <i class="flaticon-arrows red"></i>
-                                    <p>Mejora de la herramienta envolver.</p>
+                                    <p>SOLIDWORKS 3D CAD | <a href="#3dcad" data-toggle="modal">Ver video</a></p>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                  <a class="btn-red btnC"href="#" data-toggle="modal" data-target=".bs-example-modal-lg" >SOLICITAR DEMO</a>
+                  <a class="btn-red btnC"href="#" data-toggle="modal" data-target="#solicitar">SOLICITAR DEMO</a>
                 </div>
                 <!--  MÓDULO -->
 
@@ -74,21 +76,21 @@
                 <div class="panelFlexLarge btnB">
                     <div class="panel-default ">
                         <figure class="img">
-                            <img src="assets/images/porta.jpg" alt="">
+                            <img src="assets/images/porta3.jpg" alt="">
                         </figure>
                         <div class="panel-heading">
-                            <h4>Desarrollo de nuevos productos </h4>
+                            <h4>Mecánico</h4>
                         </div>
                         <div class="panel-body">
                             <ul class="generalThree">
                                 <li>
                                     <i class="flaticon-arrows red"></i>
-                                    <p>Mejora de la herramienta envolver.</p>
+                                    <p>SOLIDWORKS 3D CAD | <a href="#3dcad" data-toggle="modal">Ver video</a></p>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                  <a class="btn-red btnC"href="#" data-toggle="modal" data-target=".bs-example-modal-lg" >SOLICITAR DEMO</a>
+                  <a class="btn-red btnC"href="#" data-toggle="modal" data-target="#solicitar">SOLICITAR DEMO</a>
                 </div>
                 <!--  MÓDULO -->
 
@@ -97,21 +99,25 @@
                 <div class="panelFlexLarge btnB">
                     <div class="panel-default ">
                         <figure class="img">
-                            <img src="assets/images/porta.jpg" alt="">
+                            <img src="assets/images/porta4.jpg" alt="">
                         </figure>
                         <div class="panel-heading">
-                            <h4>Desarrollo de nuevos productos </h4>
+                            <h4>Diseño Eléctrico</h4>
                         </div>
                         <div class="panel-body">
                             <ul class="generalThree">
                                 <li>
                                     <i class="flaticon-arrows red"></i>
-                                    <p>Mejora de la herramienta envolver.</p>
+                                    <p>SOLIDWORKS Electrical | <a href="#electrical" data-toggle="modal">Ver video</a></p>
+                                </li>
+                                <li>
+                                    <i class="flaticon-arrows red"></i>
+                                    <p>SOLIDWORKS PC B | <a href="#pcb" data-toggle="modal">Ver video</a></p>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                  <a class="btn-red btnC"href="#" data-toggle="modal" data-target=".bs-example-modal-lg" >SOLICITAR DEMO</a>
+                  <a class="btn-red btnC" href="#" data-toggle="modal" data-target="#solicitar" >SOLICITAR DEMO</a>
                 </div>
                 <!--  MÓDULO -->
 
@@ -120,21 +126,30 @@
                 <div class="panelFlexLarge btnB">
                     <div class="panel-default ">
                         <figure class="img">
-                            <img src="assets/images/porta.jpg" alt="">
+                            <img src="assets/images/porta5.jpg" alt="">
                         </figure>
                         <div class="panel-heading">
-                            <h4>Desarrollo de nuevos productos </h4>
+                            <h4>Validación</h4>
                         </div>
                         <div class="panel-body">
                             <ul class="generalThree">
                                 <li>
                                     <i class="flaticon-arrows red"></i>
-                                    <p>Mejora de la herramienta envolver.</p>
+                                    <p>SOLIDWORKS Simulation | <a href="#simulation" data-toggle="modal">Ver video</a></p>
                                 </li>
+                                <li>
+                                    <i class="flaticon-arrows red"></i>
+                                    <p>SOLIDWORKS Flow Simulation | <a href="#flowsimulation" data-toggle="modal">Ver video</a></p>
+                                </li>
+                                <li>
+                                    <i class="flaticon-arrows red"></i>
+                                    <p>Simulia | <a href="#simulia" data-toggle="modal">Ver video</a></p>
+                                </li>
+
                             </ul>
                         </div>
                     </div>
-                  <a class="btn-red btnC"href="#" data-toggle="modal" data-target=".bs-example-modal-lg" >SOLICITAR DEMO</a>
+                  <a class="btn-red btnC"href="#" data-toggle="modal" data-target="#solicitar">SOLICITAR DEMO</a>
                 </div>
                 <!--  MÓDULO -->
 
@@ -143,16 +158,16 @@
                 <div class="panelFlexLarge btnB">
                     <div class="panel-default ">
                         <figure class="img">
-                            <img src="assets/images/porta.jpg" alt="">
+                            <img src="assets/images/porta6.jpg" alt="">
                         </figure>
                         <div class="panel-heading">
-                            <h4>Desarrollo de nuevos productos </h4>
+                            <h4>Administración</h4>
                         </div>
                         <div class="panel-body">
                             <ul class="generalThree">
-                                <li>
+                                 <li>
                                     <i class="flaticon-arrows red"></i>
-                                    <p>Mejora de la herramienta <a href="" class="red" data-toggle="modal" data-target=".bs-example-modal-lg">Ver video</a></p>
+                                    <p>PDM Professional | <a href="#pdm" data-toggle="modal">Ver video</a></p>
                                 </li>
                             </ul>
                         </div>
@@ -166,21 +181,63 @@
                 <div class="panelFlexLarge btnB">
                     <div class="panel-default ">
                         <figure class="img">
-                            <img src="assets/images/porta.jpg" alt="">
+                            <img src="assets/images/porta7.jpg" alt="">
                         </figure>
                         <div class="panel-heading">
-                            <h4>Desarrollo de nuevos productos </h4>
+                            <h4>Colaboración</h4>
                         </div>
                         <div class="panel-body">
                             <ul class="generalThree">
-                                <li>
+                                 <li>
                                     <i class="flaticon-arrows red"></i>
-                                    <p>Mejora de la herramienta envolver.</p>
+                                    <p>SOLIDWORKS Composer | <a href="#composer" data-toggle="modal">Ver video</a></p>
+                                </li>
+                                 <li>
+                                    <i class="flaticon-arrows red"></i>
+                                    <p>SOLIDWORKS Visualize | <a href="#visualize" data-toggle="modal">Ver video</a></p>
+                                </li>
+                                 <li>
+                                    <i class="flaticon-arrows red"></i>
+                                    <p>Edrawings | <a href="#edrawings" data-toggle="modal">Ver video</a></p>
+                                </li>
+                                 <li>
+                                    <i class="flaticon-arrows red"></i>
+                                    <p>MySOLIDWORKS | <a href="#mysolidwork" data-toggle="modal">Ver video</a></p>
                                 </li>
                             </ul>
                         </div>
                     </div>
                   <a class="btn-red btnC"href="#" data-toggle="modal" data-target="#myModal"> SOLICITAR DEMO</a>
+                </div>
+                <!--  MÓDULO -->
+
+                <!--  MÓDULO -->
+                <div class="panelFlexLarge btnB">
+                    <div class="panel-default ">
+                        <figure class="img">
+                            <img src="assets/images/porta8.jpg" alt="">
+                        </figure>
+                        <div class="panel-heading">
+                            <h4>Manufactura</h4>
+                        </div>
+                        <div class="panel-body">
+                            <ul class="generalThree">
+                                 <li>
+                                    <i class="flaticon-arrows red"></i>
+                                    <p>SOLIDWORKS MBD | <a href="#mdb" data-toggle="modal">Ver video</a></p>
+                                </li>
+                                 <li>
+                                    <i class="flaticon-arrows red"></i>
+                                    <p>SOLIDWORKS Inspection | <a href="#inspection" data-toggle="modal">Ver video</a></p>
+                                </li>
+                                 <li>
+                                    <i class="flaticon-arrows red"></i>
+                                    <p>CAMWorks | <a href="#camworks" data-toggle="modal">Ver video</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                  <a class="btn-red btnC" data-toggle="modal" data-target="#solicitar"> SOLICITAR DEMO</a>
                 </div>
                 <!--  MÓDULO -->
            </div> 
@@ -190,82 +247,104 @@
       </div> 
     <!--   Conatainer -->
 
-
-<!-- Small modal -->
-
-
-<div id="solicitar" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
-  <div class="modal-dialog modal-sm" role="document">
-    <div class="modal-content modal-small">
-      <button type="button" class="close col-sm-1" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-      <h4>SOLICITUD ENVIADA  </h4>
-        
+    <!--Modales-->
+     <div id="3dcad" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog dialog-size" role="document">
+          <div class="modal-content modales">
+            <iframe src="https://www.youtube.com/embed/BNbty1ew8KY" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
     </div>
-  </div>
-</div>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close col-sm-1" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title col-sm-5" id="myModalLabel">Regístrate</h4>
-        <p class="col-sm-6"><a href="">¿Ya tienes una cuenta?</a></p>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="form-group col-sm-6">
-            
-            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="*Email">
+    <div id="electrical" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog dialog-size" role="document">
+          <div class="modal-content modales">
+            <iframe src="https://www.youtube.com/embed/BNbty1ew8KY" frameborder="0" allowfullscreen></iframe>
           </div>
-          <div class="form-group col-sm-6">
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="*Password">
-          </div>
-
-          <div class="form-group col-sm-6">
-            <input type="Nombre" class="form-control" id="exampleInputNombre1" placeholder="*Nombre">
-          </div>
-
-          <div class="form-group col-sm-6">
-            <input type="text" class="form-control" id="exampleInputApellido1" placeholder="*Apellido">
-          </div>
-          <div class="form-group col-sm-6">
-            <input type="text" class="form-control" id="exampleInputApellido1" placeholder="*Puesto">
-          </div>
-          <div class="form-group col-sm-6">
-            <input type="text" class="form-control" id="exampleInputApellido1" placeholder="*Compañia">
-          </div>
-          <div class="form-group col-sm-6">
-            <input type="text" class="form-control" id="exampleInputApellido1" placeholder="*Teléfono">
-          </div>
-          <div class="form-group col-sm-6">
-            <input type="text" class="form-control" id="exampleInputApellido1" placeholder="*Dirección">
-          </div>
-          <div class="form-group col-sm-6">
-            <input type="text" class="form-control" id="exampleInputApellido1" placeholder="*Ciudad">
-          </div>
-          <div class="form-group col-sm-6">
-            <input type="text" class="form-control" id="exampleInputApellido1" placeholder="*Codigo Postal">
-          </div>
-          <!--<select class="form-control col-sm-12">
-          <option>Estado</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
-        </select>-->
-          <div class="checkbox col-sm-12">
-            <label>
-              <input type="checkbox" class="input-checkbox"> To continue, you must agree to receive communications according to the Dassault Systèmes SolidWorks Corporation <a href="http://www.solidworks.com/sw/privacypolicy.htm" target="_blank">Aviso de privacidad</a></label>
-          </div>
-          <button type="submit" class="btn btn-default">Enviar</button>
-        </form>
-      </div>
-     
+        </div>
     </div>
-  </div>
-</div>
-
+    <div id="pcb" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog dialog-size" role="document">
+          <div class="modal-content modales">
+            <iframe src="https://www.youtube.com/embed/BNbty1ew8KY" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+    </div>
+    <div id="simulation" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog dialog-size" role="document">
+          <div class="modal-content modales">
+            <iframe src="https://www.youtube.com/embed/BNbty1ew8KY" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+    </div>
+    <div id="flowsimulation" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog dialog-size" role="document">
+          <div class="modal-content modales">
+            <iframe src="https://www.youtube.com/embed/BNbty1ew8KY" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+    </div>
+    <div id="simulia" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog dialog-size" role="document">
+          <div class="modal-content modales">
+            <iframe src="https://www.youtube.com/embed/BNbty1ew8KY" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+    </div>
+    <div id="pdm" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog dialog-size" role="document">
+          <div class="modal-content modales">
+            <iframe src="https://www.youtube.com/embed/BNbty1ew8KY" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+    </div>
+    <div id="composer" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog dialog-size" role="document">
+          <div class="modal-content modales">
+            <iframe src="https://www.youtube.com/embed/BNbty1ew8KY" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+    </div>
+    <div id="visualize" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog dialog-size" role="document">
+          <div class="modal-content modales">
+            <iframe src="https://www.youtube.com/embed/BNbty1ew8KY" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+    </div>
+    <div id="edrawings" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog dialog-size" role="document">
+          <div class="modal-content modales">
+            <iframe src="https://www.youtube.com/embed/BNbty1ew8KY" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+    </div>
+    <div id="mysolidworks" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog dialog-size" role="document">
+          <div class="modal-content modales">
+            <iframe src="https://www.youtube.com/embed/BNbty1ew8KY" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+    </div>
+    <div id="mbd" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog dialog-size" role="document">
+          <div class="modal-content modales">
+            <iframe src="https://www.youtube.com/embed/BNbty1ew8KY" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+    </div>
+    <div id="inspection" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog dialog-size" role="document">
+          <div class="modal-content modales">
+            <iframe src="https://www.youtube.com/embed/BNbty1ew8KY" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+    </div>
+    <div id="camworks" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog dialog-size" role="document">
+          <div class="modal-content modales">
+            <iframe src="https://www.youtube.com/embed/BNbty1ew8KY" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+    </div>
 
 <?php include('footer.php'); ?>

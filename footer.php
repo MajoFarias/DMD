@@ -11,29 +11,29 @@
 		<article class="solidwork">
 			<h3>SOLIDWORKS® 2017</h3>
 			<ul>
-				<li>Calendario de eventos</li>
-				<li>Top 10 Novedades</li>
-				<li>Recorrido por el portafolio de soluciones</li>
+				<li> <a href="calendar.php">Calendario de eventos</a></li>
+				<li> <a href="novedades.php">Top 10 Novedades</a></li>
+				<li> <a href="portafolio.php">Recorrido por el portafolio de soluciones</a></li>
 			</ul>
 			<ul>
-				<li>SOLIDWORKS® en la actualidad</li>
-				<li>Descargas</li>
-				<li>Casos de éxito</li>
+				<li> <a href="actualidad.php">SOLIDWORKS® en la actualidad</a></li>
+				<li> <a href="descargas.php">Descargas</a></li>
+				<li> <a href="casos-exito.php">Casos de éxito</a></li>
 			</ul>
 		</article>
 		<article class="contactanos">
 			<h3>Contáctanos</h3>
 			<div>
 				<h4>Correo</h4>
-				<p><a href="">contactar@dmd.com.mx</a></p>
+				<p><a href="mailto:contactar@dmd.com.mx">contactar@dmd.com.mx</a></p>
 			</div>
 			<div>
 				<h4>Soporte</h4>
-				<p><a href="">01 800 363 4357</a></p>
+				<p><a href="#">01 800 363 4357</a></p>
 			</div>
 			<div>
 				<h4>Ventas</h4>
-				<p><a href="">01 800 890 9038</a></p>
+				<p><a href="#">01 800 890 9038</a></p>
 			</div>
 		</article>
 		
@@ -48,12 +48,34 @@
 
 
 
+<!-- REGISTRO -->
+<div id="registro" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content modal-small">
+      <button type="button" class="close col-sm-1" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <h4> HAZ SIDO REGISTRADO</h4>
+        
+    </div>
+  </div>
+</div>
+
+
+
+<!-- SOLICITAR -->
+<div id="solicitar" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content modal-small">
+      <button type="button" class="close col-sm-1" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <h4>SOLICITUD ENVIADA  </h4>
+        
+    </div>
+  </div>
+</div>
 
 
 
 
-
-	<!--Jquery-->
+<!--Jquery-->
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script src="assets/js/bootstrap.js"></script>
 	 <script type="text/javascript" src="assets/js/jquery.poshytip.js"></script>

@@ -13,7 +13,7 @@
         <div class="row">
             <div class="col-lg-12 paddingAllB">
                 <h1 class="line">
-                   Calendario de eventos 
+                  Casos de Éxito 
                 </h1>
             </div>
              <div class="col-sm-12 headMainorMed">

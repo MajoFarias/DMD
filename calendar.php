@@ -89,22 +89,22 @@
                   <li>3</li>
                   <li>4</li>
                   <li>5</li>
-                  <li class="active"  id="demo-tip-yellow" title="Querétaro<br> <a href='' data-toggle='modal' data-target='#solicitar'>REGISTRARME</a>">
+                  <li class="active"  id="demo-tip-yellow" title="Querétaro<br> <a href='' data-toggle='modal' data-target='#registro'>REGISTRARME</a>">
                     6
                       <div class="date">
                        <span>Querétaro</span>
-                       <button  class="btn-redsmall" data-toggle='modal' data-target='#solicitar'>INSCRIBIRME</button>
+                       <button  class="btn-redsmall" data-toggle='modal' data-target='#registro'>INSCRIBIRME</button>
                      </div>
                   </li>
                   <li>7</li>
                   <li>8</li>
                   <li>9</li>
                   <li>2</li>
-                   <li class="active"  id="demo-tip-yellow2" title="Guadalajara<br> <a href='' data-toggle='modal' data-target='#solicitar'>REGISTRARME</a>">
+                   <li class="active"  id="demo-tip-yellow2" title="Guadalajara<br> <a href='' data-toggle='modal' data-target='#registro'>REGISTRARME</a>">
                     11
                       <div class="date">
                        <span>GUAD</span>
-                        <button  class="btn-redsmall" data-toggle='modal' data-target='#solicitar'>INSCRIBIRME</button>
+                        <button  class="btn-redsmall" data-toggle='modal' data-target='#registro'>INSCRIBIRME</button>
                      </div>
                   </li>
                   <li>12</li>
@@ -113,30 +113,30 @@
                   <li>15</li>
                   <li>16</li>
                   <li>17</li>
-                   <li class="active"  id="demo-tip-yellow3" title="CDMX (Cuatitlán)<br> <a href='' data-toggle='modal' data-target='#solicitar'>REGISTRARME</a>">
+                   <li class="active"  id="demo-tip-yellow3" title="CDMX (Cuatitlán)<br> <a href='' data-toggle='modal' data-target='#registro'>REGISTRARME</a>">
                     18
                       <div class="date">
                        <span>GUAD</span>
-                        <button  class="btn-redsmall" data-toggle='modal' data-target='#solicitar'>INSCRIBIRME</button>
+                        <button  class="btn-redsmall" data-toggle='modal' data-target='#registro'>INSCRIBIRME</button>
                      </div>
                   </li>
                   <li>19</li>
-                   <li class="active"  id="demo-tip-yellow4" title="Monterrey<br> <a href='' data-toggle='modal' data-target='#solicitar'>REGISTRARME</a>">
+                   <li class="active"  id="demo-tip-yellow4" title="Monterrey<br> <a href='' data-toggle='modal' data-target='#registro'>REGISTRARME</a>">
                     20
                       <div class="date">
                        <span>GUAD</span>
-                        <button  class="btn-redsmall" data-toggle='modal' data-target='#solicitar'>INSCRIBIRME</button>
+                        <button  class="btn-redsmall" data-toggle='modal' data-target='#registro'>INSCRIBIRME</button>
                      </div>
                   </li>
                   <li>21</li>
                   <li>22</li>
                   <li>23</li>
                   <li>24</li>
-                   <li class="active"  id="demo-tip-yellow5" title="CDMX (Aeropuerto) <br> <a href='' data-toggle='modal' data-target='#solicitar'>REGISTRARME</a>">
+                   <li class="active"  id="demo-tip-yellow5" title="CDMX (Aeropuerto) <br> <a href='' data-toggle='modal' data-target='#registro'>REGISTRARME</a>">
                     25
                       <div class="date">
                        <span>GUAD</span>
-                        <button  class="btn-redsmall" data-toggle='modal' data-target='#solicitar'>INSCRIBIRME</button>
+                        <button  class="btn-redsmall" data-toggle='modal' data-target='#registro'>INSCRIBIRME</button>
                      </div>
                   </li>
                   <li>26</li>
@@ -150,14 +150,4 @@
 
       </div> 
 
-
-  <div id="solicitar" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
-  <div class="modal-dialog modal-sm" role="document">
-    <div class="modal-content modal-small">
-      <button type="button" class="close col-sm-1" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-      <h4> HAZ SIDO REGISTRADO</h4>
-        
-    </div>
-  </div>
-</div>
 <?php include('footer.php'); ?>
