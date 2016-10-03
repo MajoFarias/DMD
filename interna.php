@@ -2,7 +2,7 @@
 
  <section class="headerIn" style="background: url('assets/images/dmd-bg.jpg') center;">
  	<div class="contentSmall">
- 	<h2 class="white">TITLE</h2>
+ 	<h2 class="white">SOLIDWORKS<sup>®</sup> 2017</h2>
  	</div>
  </section>
 
@@ -13,7 +13,7 @@
         <div class="row">
             <div class="col-lg-12 paddingAllB">
                 <h1 class="line">
-                   Calendario de eventos 
+                   Top 10 Novedades 
                 </h1>
             </div>
              <div class="col-sm-12 headMainorMed">

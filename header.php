@@ -122,7 +122,7 @@
 		        <li><a data-toggle="modal" href="#myModal">Recorrido por el portafolio de soluciones</a></li>
 		        <li><a data-toggle="modal" href="#myModal">SOLIDWORKS® en la actualidad</a></li>
 		        <li><a data-toggle="modal" href="#myModal">Descargas</a></li>
-		        <li><a href="casosdeexito.html" class="clock">Casos de éxito</a></li>
+		        <li><a data-toggle="modal" href="#myModal">Casos de éxito</a></li>
 		      </ul>
 		    </nav>
 		  </div>
