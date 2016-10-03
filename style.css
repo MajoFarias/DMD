@@ -7747,6 +7747,47 @@ select.form-control {
   color: #282726;
   margin-top: -20px; }
 
+.descargas h2 {
+  font-size: 19px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700; }
+  .descargas h2 span {
+    text-transform: initial;
+    font-weight: 100;
+    font-size: 15px; }
+@media (max-width: 480px) {
+  .descargas .col-xx {
+    width: 100%; } }
+@media (max-width: 992px) {
+  .descargas .divdescarga {
+    text-align: center; } }
+@media (max-width: 480px) {
+  .descargas .divdescarga {
+    margin-bottom: 40px; } }
+.descargas .divdescarga img {
+  float: left; }
+  @media (max-width: 992px) {
+    .descargas .divdescarga img {
+      float: initial;
+      text-align: center; } }
+.descargas .divdescarga p {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: underline;
+  float: left; }
+  @media (max-width: 992px) {
+    .descargas .divdescarga p {
+      float: initial; } }
+  .descargas .divdescarga p a {
+    color: #ea1328; }
+    .descargas .divdescarga p a:hover {
+      color: #2f5685; }
+    .descargas .divdescarga p a:focus, .descargas .divdescarga p a:active {
+      color: #ea1328; }
+
 * a {
   color: #c4211a; }
   * a:hover {

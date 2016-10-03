@@ -996,4 +996,63 @@ select.form-control{
     margin-top:-20px;
 }
 
+//DESCARGAS//
+
+.descargas{
+	h2{
+		font-size: 19px;
+		text-transform: uppercase;
+		text-align: center;
+		font-weight: 700;
+		span{
+			text-transform: initial;
+			font-weight: 100;
+			font-size: 15px;
+		}
+	}
+
+	.col-xx{
+		@media (max-width:480px){
+			width: 100%;
+		}
+	}
+
+	.divdescarga{
+		@media (max-width:992px){
+		text-align: center;
+		}
+		@media (max-width:480px){
+		margin-bottom: 40px;
+		}
+		img{
+			float: left;
+			@media (max-width:992px){
+				float: initial;
+				text-align: center;
+			}
+		}
+		p{
+			margin-top: 20px;
+		    margin-left: 20px;
+		    font-size: 18px;
+		    font-weight: 700;
+		    text-decoration: underline;
+		    float: left;
+		    @media (max-width:992px){
+		    	float: initial;
+		    }
+
+		    a{
+		    	color: $red2;
+		    	&:hover{
+		    		color:$blue;
+		    	}
+		    	&:focus, &:active{
+		    		color:$red2;
+		    	}
+		    }
+		}
+
+	}
+}
 
