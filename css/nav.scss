@@ -170,6 +170,10 @@ h1 {
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
+     @media (max-width:768px){
+          top: 15%;
+
+     }
   }
   ul {
     list-style: none;
