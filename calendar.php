@@ -103,7 +103,7 @@
                    <li class="active"  id="demo-tip-yellow2" title="Guadalajara<br> <a href='' data-toggle='modal' data-target='#registro'>REGISTRARME</a>">
                     11
                       <div class="date">
-                       <span>GUAD</span>
+                       <span>Guadalajara/span>
                         <button  class="btn-redsmall" data-toggle='modal' data-target='#registro'>INSCRIBIRME</button>
                      </div>
                   </li>
@@ -116,7 +116,7 @@
                    <li class="active"  id="demo-tip-yellow3" title="CDMX (Cuatitlán)<br> <a href='' data-toggle='modal' data-target='#registro'>REGISTRARME</a>">
                     18
                       <div class="date">
-                       <span>GUAD</span>
+                       <span>CDMX (Cuatitlán)</span>
                         <button  class="btn-redsmall" data-toggle='modal' data-target='#registro'>INSCRIBIRME</button>
                      </div>
                   </li>
@@ -124,7 +124,7 @@
                    <li class="active"  id="demo-tip-yellow4" title="Monterrey<br> <a href='' data-toggle='modal' data-target='#registro'>REGISTRARME</a>">
                     20
                       <div class="date">
-                       <span>GUAD</span>
+                       <span>Monterrey</span>
                         <button  class="btn-redsmall" data-toggle='modal' data-target='#registro'>INSCRIBIRME</button>
                      </div>
                   </li>
@@ -135,7 +135,7 @@
                    <li class="active"  id="demo-tip-yellow5" title="CDMX (Aeropuerto) <br> <a href='' data-toggle='modal' data-target='#registro'>REGISTRARME</a>">
                     25
                       <div class="date">
-                       <span>GUAD</span>
+                       <span>CDMX (Aeropuerto)</span>
                         <button  class="btn-redsmall" data-toggle='modal' data-target='#registro'>INSCRIBIRME</button>
                      </div>
                   </li>

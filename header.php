@@ -106,7 +106,7 @@
 		  </div>
 
 		  <div class="social-header col-xs-6 col-sm-3">
-		  	<a href=""><i class="flaticon-social-media-2"></i></a>
+		  	<a href="https://www.facebook.com/dmdcommx?fref=ts&__mref=message_bubble" target="_blank" ><i class="flaticon-social-media-2"></i></a>
 		  	<a href=""><i class="flaticon-social"></i></a>
 
 		  </div>

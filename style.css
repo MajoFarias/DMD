@@ -7259,94 +7259,89 @@ h3 {
   .social-header a:nth-child(1) {
     margin-right: 10px; }
 
-.eyecatcher {
-  padding-top: 128px; }
+.eyecatcher .carousel-inner > .item > img {
+  max-width: initial; }
+@media (max-width: 769px) {
+  .eyecatcher .carousel-indicators {
+    left: 49%; } }
+.eyecatcher .carousel-caption {
+  top: 270px;
+  bottom: 0; }
+  @media (max-width: 1280px) {
+    .eyecatcher .carousel-caption {
+      right: 10%;
+      left: 10%; } }
+  @media (max-width: 1060px) {
+    .eyecatcher .carousel-caption {
+      right: 5%;
+      left: 3%; } }
   @media (max-width: 768px) {
-    .eyecatcher {
-      padding-top: 105px; } }
-  .eyecatcher .carousel-inner > .item > img {
-    max-width: initial; }
-  @media (max-width: 769px) {
-    .eyecatcher .carousel-indicators {
-      left: 49%; } }
-  .eyecatcher .carousel-caption {
-    top: 270px;
-    bottom: 0; }
-    @media (max-width: 1280px) {
-      .eyecatcher .carousel-caption {
-        right: 10%;
-        left: 10%; } }
-    @media (max-width: 1060px) {
-      .eyecatcher .carousel-caption {
-        right: 5%;
-        left: 3%; } }
-    @media (max-width: 768px) {
-      .eyecatcher .carousel-caption {
-        top: 70px; } }
-  .eyecatcher .item-video {
-    background-color: black;
-    height: 800px; }
-    @media (max-width: 768px) {
-      .eyecatcher .item-video {
-        height: 500px; } }
-  .eyecatcher video {
-    transform: translate(0, 0%);
-    width: auto;
-    min-height: 100%;
-    min-width: 100%;
-    opacity: .4; }
-    @media (max-width: 768px) {
-      .eyecatcher video {
-        width: 888px; } }
-  .eyecatcher h1 {
-    font-size: 60px;
-    text-transform: uppercase;
-    font-weight: 800;
-    margin: auto;
-    background-color: #c4211a;
-    width: 899px;
-    text-shadow: initial; }
-    @media (max-width: 1280px) {
-      .eyecatcher h1 {
-        width: initial; } }
-    @media (max-width: 992px) {
-      .eyecatcher h1 {
-        font-size: 50px; } }
-    @media (max-width: 768px) {
-      .eyecatcher h1 {
-        width: 80%;
-        font-size: 36px;
-        padding: 10px; } }
-  .eyecatcher h2 {
-    font-size: 29px;
-    text-transform: uppercase;
-    font-weight: 700;
-    text-shadow: initial; }
-    @media (max-width: 768px) {
-      .eyecatcher h2 {
-        font-size: 22px;
-        padding: 0 5%; } }
-  .eyecatcher h3 {
-    text-align: center;
-    font-size: 22px; }
-    @media (max-width: 768px) {
-      .eyecatcher h3 {
-        font-size: 18px;
-        padding: 0 5%; } }
-    .eyecatcher h3 sup {
-      font-size: 17px; }
-  .eyecatcher p {
-    margin-top: 100px; }
-    @media (max-width: 768px) {
-      .eyecatcher p {
-        display: none; } }
-    .eyecatcher p a img {
-      width: 50px; }
-  .eyecatcher sup {
-    font-size: 37px; }
-    @media (max-width: 992px) {
-      .eyecatcher sup {
-        font-size: 25px; } }
+    .eyecatcher .carousel-caption {
+      top: 70px; } }
+.eyecatcher .item-video {
+  background-color: black;
+  height: 800px; }
+  @media (max-width: 768px) {
+    .eyecatcher .item-video {
+      height: 500px; } }
+.eyecatcher video {
+  transform: translate(0, 0%);
+  width: auto;
+  min-height: 100%;
+  min-width: 100%;
+  opacity: .4; }
+  @media (max-width: 768px) {
+    .eyecatcher video {
+      width: 888px; } }
+.eyecatcher h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin: auto;
+  background-color: #c4211a;
+  width: 899px;
+  text-shadow: initial; }
+  @media (max-width: 1280px) {
+    .eyecatcher h1 {
+      width: initial; } }
+  @media (max-width: 992px) {
+    .eyecatcher h1 {
+      font-size: 50px; } }
+  @media (max-width: 768px) {
+    .eyecatcher h1 {
+      width: 80%;
+      font-size: 36px;
+      padding: 10px; } }
+.eyecatcher h2 {
+  font-size: 29px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: initial; }
+  @media (max-width: 768px) {
+    .eyecatcher h2 {
+      font-size: 22px;
+      padding: 0 5%; } }
+.eyecatcher h3 {
+  text-align: center;
+  font-size: 22px; }
+  @media (max-width: 768px) {
+    .eyecatcher h3 {
+      font-size: 18px;
+      padding: 0 5%; } }
+  .eyecatcher h3 sup {
+    font-size: 17px; }
+.eyecatcher p {
+  margin-top: 100px; }
+  @media (max-width: 768px) {
+    .eyecatcher p {
+      display: none; } }
+  .eyecatcher p a img {
+    width: 50px; }
+.eyecatcher sup {
+  font-size: 37px; }
+  @media (max-width: 992px) {
+    .eyecatcher sup {
+      font-size: 25px; } }
 
 .first {
   padding: 80px 0 0 0; }

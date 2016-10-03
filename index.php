@@ -14,7 +14,7 @@
 	  <div class="carousel-inner" role="listbox"> 
 	    <div class="item active item-video">
 	      <video id="bgvid" playsinline="" autoplay="" muted="" loop="">
-		<source src="assets/images/dmd-video.mp4" type="video/mp4">
+		<source src="assets/images/video1.mp4" type="video/mp4">
 		</video>
 	      <div class="carousel-caption">
 	        <h1>Conoce SOLIDWORKS<sup>®</sup> 2017</h1>
@@ -26,7 +26,7 @@ para convertir rápidamente tus ideas en productos terminados.</h3>
 	    </div>
 	    <div class="item item-video">
 	      <video id="bgvid" playsinline="" autoplay="" muted="" loop="">
-		<source src="assets/images/dmd-video.mp4" type="video/mp4">
+		<source src="assets/images/video2.mp4" type="video/mp4">
 		</video>
 	      <div class="carousel-caption">
 	        <h1>Conoce SOLIDWORKS<sup>®</sup> 2017</h1>

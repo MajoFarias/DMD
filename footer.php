@@ -2,7 +2,7 @@
 	<img src="assets/images/dmd-white.png" alt="">
 	<img src="assets/images/solidworks-white.png" alt="">
 	<p>Sigue nuestras redes sociales</p>
-	<a href=""><i class="glyph-icon flaticon-social-media"></i></a>
+	<a href="https://www.facebook.com/dmdcommx?fref=ts&__mref=message_bubble" target="_blank" ><i class="glyph-icon flaticon-social-media"></i></a>
 	<a href=""><i class="glyph-icon flaticon-social-media-1"></i></a>
 </section>
 
