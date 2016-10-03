@@ -1,8 +1,8 @@
 <?php include('header.php'); ?>
 
- <section class="headerIn" style="background: url('assets/images/dmd-bg.jpg') center;">
+ <section class="headerIn" style="background: url('assets/images/dmd-contacto.jpg') center;">
  	<div class="contentSmall">
- 	<h2 class="white">TITLE</h2>
+ 	<h2 class="white">SOLIDWORKS® 2017</h2>
  	</div>
  </section>
 
@@ -20,32 +20,32 @@
              	<div class="content">
                   <iframe src="https://www.youtube.com/embed/HflLxXGPUAs" frameborder="0" allowfullscreen></iframe> 
                   <div class="textHead">
-                  <strong>Vive la Experiencia DMD</strong>     en Cinépolis y descubre las novedades que 
-                  SOLIDWORKS tiene para ti. Conocerás a fondo las funcionalidades, desempeño, e
-                  xperiencias y tips por parte de los expertos para aumentar tu competitividad y detonar la
-                   innovación en tus diseños. <br> <br>
+                 <strong>Vive la Experiencia DMD</strong>   en Cinépolis y descubre las novedades que 
+                 SOLIDWORKS tiene para ti. Conocerás a fondo las funcionalidades, 
+                 desempeño, experiencias y tips por parte de los expertos para aumentar 
+                 tu competitividad y detonar la innovación en tus diseños.
+                 <br>
+                  <br>
                     <ul class="general">
                             <li>
                                 <i class="flaticon-arrows red"></i>
-                                <p>Generación de operaciones adicionales al modelo desde 
-                                    SOLIDWORKS sin perder estos cambios en caso de 
-                                    modificación del modelo original en su plataforma. </p>
+                                <p>Conoce las novedades SOLIDWORKS 2017.</p>
                             </li>
                             <li>
                                 <i class="flaticon-arrows red"></i>
-                                <p>Mejora de la herramienta envolver</p>
+                                <p>Navega por la plataforma de Soluciones.</p>
                             </li>
                             <li>
                                 <i class="flaticon-arrows red"></i>
-                                <p>Mejora de la herramienta envolver</p>
+                                <p>Aprende las tendencias de la Industria.</p>
                             </li>
                             <li>
                                 <i class="flaticon-arrows red"></i>
-                                <p>Mejora de la herramienta envolver</p>
+                                <p>Convive con los Expertos.</p>
                             </li>
                             <li>
                                 <i class="flaticon-arrows red"></i>
-                                <p>Mejora de la herramienta envolver</p>
+                                <p>Diviértete.</p>
                             </li>
                         </ul>
                   </div>
@@ -69,40 +69,95 @@
                 </div>
 
                 <ul class="weekdays">
+                  <li>S</li>
+                  <li>D</li>
                   <li>L</li>
                   <li>M</li>
                   <li>M</li>
                   <li>J</li>
                   <li>V</li>
-                  <li>S</li>
-                  <li>D</li>
                 </ul>
-
+                  
                 <ul class="days">
-                  <li>1</li>
-                  <li>2</li>
+
+                  <li>
+                   1
+                  </li>
+                  <li>
+                   2
+                  </li>
                   <li>3</li>
                   <li>4</li>
                   <li>5</li>
-                  <li>6</li>
+                  <li class="active"  id="demo-tip-yellow" title="Querétaro<br> <a href='' data-toggle='modal' data-target='#solicitar'>REGISTRARME</a>">
+                    6
+                      <div class="date">
+                       <span>Querétaro</span>
+                       <button  class="btn-redsmall" data-toggle='modal' data-target='#solicitar'>INSCRIBIRME</button>
+                     </div>
+                  </li>
                   <li>7</li>
                   <li>8</li>
                   <li>9</li>
-                  <li><span class="active">10</span></li>
-                  <li>11</li>
-                  ...etc
+                  <li>2</li>
+                   <li class="active"  id="demo-tip-yellow2" title="Guadalajara<br> <a href='' data-toggle='modal' data-target='#solicitar'>REGISTRARME</a>">
+                    11
+                      <div class="date">
+                       <span>GUAD</span>
+                        <button  class="btn-redsmall" data-toggle='modal' data-target='#solicitar'>INSCRIBIRME</button>
+                     </div>
+                  </li>
+                  <li>12</li>
+                  <li>13</li>
+                  <li>14</li>
+                  <li>15</li>
+                  <li>16</li>
+                  <li>17</li>
+                   <li class="active"  id="demo-tip-yellow3" title="CDMX (Cuatitlán)<br> <a href='' data-toggle='modal' data-target='#solicitar'>REGISTRARME</a>">
+                    18
+                      <div class="date">
+                       <span>GUAD</span>
+                        <button  class="btn-redsmall" data-toggle='modal' data-target='#solicitar'>INSCRIBIRME</button>
+                     </div>
+                  </li>
+                  <li>19</li>
+                   <li class="active"  id="demo-tip-yellow4" title="Monterrey<br> <a href='' data-toggle='modal' data-target='#solicitar'>REGISTRARME</a>">
+                    20
+                      <div class="date">
+                       <span>GUAD</span>
+                        <button  class="btn-redsmall" data-toggle='modal' data-target='#solicitar'>INSCRIBIRME</button>
+                     </div>
+                  </li>
+                  <li>21</li>
+                  <li>22</li>
+                  <li>23</li>
+                  <li>24</li>
+                   <li class="active"  id="demo-tip-yellow5" title="CDMX (Aeropuerto) <br> <a href='' data-toggle='modal' data-target='#solicitar'>REGISTRARME</a>">
+                    25
+                      <div class="date">
+                       <span>GUAD</span>
+                        <button  class="btn-redsmall" data-toggle='modal' data-target='#solicitar'>INSCRIBIRME</button>
+                     </div>
+                  </li>
+                  <li>26</li>
+                  <li>27</li>
+                  <li>28</li>
+                  <li>29</li>
+                  <li>30</li>
+                  <li>31</li>
                 </ul>
         </div>
 
       </div> 
- 
-   <!-- Large modal -->
-<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-      ...
+
+
+  <div id="solicitar" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content modal-small">
+      <button type="button" class="close col-sm-1" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <h4> HAZ SIDO REGISTRADO</h4>
+        
     </div>
   </div>
-</div>   
-
+</div>
 <?php include('footer.php'); ?>

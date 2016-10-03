@@ -191,24 +191,12 @@
                                 <p>Mejora de la herramienta envolver.</p>
                             </li>
                         </ul>
-                     
                     </div>
                 </div>
                  <a class="btn-red btnC"href="#" data-toggle="modal" data-target=".bs-example-modal-lg" >VER VIDEO</a>
             </div>
-
-
-
-
-
            </div> 
         </div>
-
-
-
-
-
-
       </div> 
 
 
@@ -220,5 +208,11 @@
     </div>
   </div>
 </div>   
+<script>
+    
+  $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
 
+</script>
 <?php include('footer.php'); ?>

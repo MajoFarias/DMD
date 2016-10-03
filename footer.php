@@ -56,8 +56,11 @@
 	<!--Jquery-->
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script src="assets/js/bootstrap.js"></script>
+	 <script type="text/javascript" src="assets/js/jquery.poshytip.js"></script>
+	 <script type="text/javascript" src="assets/js/tool.js"></script>
+	
 	<script>
-		//Menu//
+	//Menu//
 
 	  $(document).ready(function(){
 
@@ -104,6 +107,8 @@
 	        $(".clearMargin").removeClass("addMargin");
 	    }
 	});
+
 	</script>
+
 </body>
 </html>

@@ -191,14 +191,18 @@
     <!--   Conatainer -->
 
 
-   <!-- Large modal -->
-<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-      ...
+<!-- Small modal -->
+
+
+<div id="solicitar" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content modal-small">
+      <button type="button" class="close col-sm-1" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <h4>SOLICITUD ENVIADA  </h4>
+        
     </div>
   </div>
-</div>   
+</div>
 
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
