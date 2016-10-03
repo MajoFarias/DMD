@@ -403,9 +403,9 @@ h3{
 }
 
 .eyecatcher{
-	padding-top: 128px;
+	// padding-top: 128px;
 	@media (max-width:768px){
-		padding-top: 105px;
+		// padding-top: 105px;
 	}
 	.carousel{
 
@@ -439,7 +439,7 @@ h3{
 
 	.item-video{
 		background-color:black;
-		height: 800px;
+		height: 95vh;
 		@media (max-width:768px){
 			height: 500px;
 		}
