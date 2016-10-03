@@ -86,8 +86,8 @@
 <header class="clearMargin">
 	<section class="up-top">
 		<div class="contacto-top">
-		<p><i class="glyph-icon flaticon-technology"></i><span>Ventas <br></span><a href="">01 800 890 90 38</a></p>
-		<p><i class="glyph-icon flaticon-business"></i><span>Soporte <br></span><a href="">01 800 363 43 57</a></p>
+		<p><i class="glyph-icon flaticon-technology"></i><span>Ventas <br></span><a href="tel:018008909038">01 800 890 90 38</a></p>
+		<p><i class="glyph-icon flaticon-business"></i><span>Soporte <br></span><a href="tel:018003634357">01 800 363 43 57</a></p>
 		<p><i class="glyph-icon flaticon-people"></i><span><strong>
 			<a href="" data-toggle="modal" data-target="#inicio">Inicia<br> Sesión</a></strong></span></p>
 		</div>

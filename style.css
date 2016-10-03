@@ -1,3 +1,4 @@
+@charset "UTF-8";
 	/*
   	Flaticon icon font: Flaticon
   	Creation date: 28/09/2016 01:25
@@ -7001,6 +7002,9 @@ body {
   @media (max-width: 1280px) {
     .stickycontact {
       top: 317px; } }
+  @media (max-width: 480px) {
+    .stickycontact {
+      top: 180px; } }
   .stickycontact .contact-body {
     background-color: #eee;
     width: 350px;
