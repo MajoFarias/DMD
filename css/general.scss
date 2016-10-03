@@ -26,7 +26,12 @@ a, button{
     	}
    }
 }
-
+.h3none{
+	display: inherit;
+	 @media (max-width:768px){
+	 	display: none;
+	 }
+}
 .addMargin{
 	.nav-logo{
 		box-shadow: 0px 0px 5px #ccc;
@@ -90,6 +95,10 @@ body{
     top: 417px;
     @media (max-width:1280px){
     	top:317px;
+    	    z-index: 999;
+    }
+    @media (max-width:480px){
+    	top:0;
     }
     @media (max-width:480px){
     	top:179px;
@@ -152,6 +161,9 @@ body{
 			font-size: 17px;
 			@media (max-width:1280px){
 				top:100px;
+			}
+			@media (max-width:768px){
+				top:250px;
 			}
 			&:hover{
 				color:$bluelight;
@@ -405,7 +417,7 @@ h3{
 .eyecatcher{
 	// padding-top: 128px;
 	@media (max-width:768px){
-		// padding-top: 105px;
+		padding-top: 105px;
 	}
 	.carousel{
 
@@ -422,7 +434,7 @@ h3{
 	}
 
 	.carousel-caption{
-		top:270px;
+		top:390px;
 		bottom:0;
 		@media (max-width:1280px){
 			right:10%;
@@ -445,14 +457,27 @@ h3{
 		}
 	}
 	video{
-	transform: translate(0, 0%);
-    width: auto;
+		    height: auto;
+    left: 50%;
     min-height: 100%;
     min-width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -43%);
+    width: auto;
+    z-index: -100;
     opacity: .4;
-	    @media (max-width:768px){
+    	    @media (max-width:768px){
 	    	width: 888px;
 	    }
+    
+	// transform: translate(0, 0%);
+ //    width: auto;
+ //    min-height: 100%;
+ //    min-width: 100%;
+	//     @media (max-width:768px){
+	//     	width: 888px;
+	//     }
 	}
 
 	h1{

@@ -16,13 +16,13 @@
 	<a class="contact-opener" href="#">Contacto <i class="material-icons">email</i></a>
     
     <div id="contact_body" class="contact-body">
-    	<h3>Ponte en contacto con Dmd</h3>
+    	<h3 class="h3none">Ponte en contacto con Dmd</h3>
         <form>
 		  <div class="form-group">
 		    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="*Nombre Completo">
 		  </div>
 		  <div class="form-group">
-		    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="*Empresa">
+		    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="*Empresa">
 		  </div>
 
 		  <div class="form-group">

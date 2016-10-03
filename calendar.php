@@ -2,7 +2,7 @@
 
  <section class="headerIn" style="background: url('assets/images/dmd-contacto.jpg') center;">
  	<div class="contentSmall">
- 	<h2 class="white">SOLIDWORKS® 2017</h2>
+    <h2 class="white">SOLIDWORKS<sup>® </sup> 2017</h2>
  	</div>
  </section>
 
@@ -81,38 +81,38 @@
                 <ul class="days">
 
                   <li>
-                   1
+                  <br> 1
                   </li>
                   <li>
-                   2
+                   <br> 2
                   </li>
-                  <li>3</li>
-                  <li>4</li>
-                  <li>5</li>
+                  <li> <br>3</li>
+                  <li> <br>4</li>
+                  <li> <br>5</li>
                   <li class="active"  id="demo-tip-yellow" title="Querétaro<br> <a href='' data-toggle='modal' data-target='#registro'>REGISTRARME</a>">
-                    6
+                       6
                       <div class="date">
                        <span>Querétaro</span>
                        <button  class="btn-redsmall" data-toggle='modal' data-target='#registro'>INSCRIBIRME</button>
                      </div>
                   </li>
-                  <li>7</li>
-                  <li>8</li>
-                  <li>9</li>
-                  <li>2</li>
+                  <li><br>7</li>
+                  <li><br>8</li>
+                  <li><br>9</li>
+                  <li><br>2</li>
                    <li class="active"  id="demo-tip-yellow2" title="Guadalajara<br> <a href='' data-toggle='modal' data-target='#registro'>REGISTRARME</a>">
                     11
                       <div class="date">
-                       <span>Guadalajara/span>
+                       <span>Guadalajara</span>
                         <button  class="btn-redsmall" data-toggle='modal' data-target='#registro'>INSCRIBIRME</button>
                      </div>
                   </li>
-                  <li>12</li>
-                  <li>13</li>
-                  <li>14</li>
-                  <li>15</li>
-                  <li>16</li>
-                  <li>17</li>
+                  <li><br>12</li>
+                  <li><br>13</li>
+                  <li><br>14</li>
+                  <li><br>15</li>
+                  <li><br>16</li>
+                  <li><br>17</li>
                    <li class="active"  id="demo-tip-yellow3" title="CDMX (Cuatitlán)<br> <a href='' data-toggle='modal' data-target='#registro'>REGISTRARME</a>">
                     18
                       <div class="date">
@@ -128,10 +128,10 @@
                         <button  class="btn-redsmall" data-toggle='modal' data-target='#registro'>INSCRIBIRME</button>
                      </div>
                   </li>
-                  <li>21</li>
-                  <li>22</li>
-                  <li>23</li>
-                  <li>24</li>
+                  <li><br>21</li>
+                  <li><br>22</li>
+                  <li><br>23</li>
+                  <li><br>24</li>
                    <li class="active"  id="demo-tip-yellow5" title="CDMX (Aeropuerto) <br> <a href='' data-toggle='modal' data-target='#registro'>REGISTRARME</a>">
                     25
                       <div class="date">
@@ -139,12 +139,12 @@
                         <button  class="btn-redsmall" data-toggle='modal' data-target='#registro'>INSCRIBIRME</button>
                      </div>
                   </li>
-                  <li>26</li>
-                  <li>27</li>
-                  <li>28</li>
-                  <li>29</li>
-                  <li>30</li>
-                  <li>31</li>
+                  <li><br>26</li>
+                  <li><br>27</li>
+                  <li><br>28</li>
+                  <li><br>29</li>
+                  <li><br>30</li>
+                  <li><br>31</li>
                 </ul>
         </div>
 

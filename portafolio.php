@@ -2,7 +2,7 @@
 
  <section class="headerIn" style="background: url('assets/images/eyec.jpg') center;">
  	<div class="contentSmall">
- 	<h2 class="white">SOLIDWORKS® 2017</h2>
+ 	<h2 class="white">SOLIDWORKS<sup>® </sup> 2017</h2>
  	</div>
  </section>
 

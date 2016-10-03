@@ -328,6 +328,7 @@ ul.generalThree{
 	   @media (min-width: 768px) {
 	    	width: 48%;
 	    	margin: 0 .65% 2%;
+	    	border: 1px solid rgba( black, .2);
 	    }
 	    @media (min-width: 992px) {
 			width: 32%;
@@ -508,11 +509,17 @@ body {font-family: Verdana, sans-serif;}
     position: relative;
     text-align: center;
     width: 13.4%;
+    br{
+    	display: none;
+    }
      @media (min-width: 993px) {
      	 height: 135px;
      	 font-size: 22px;
      	 background: transparent;
          border: 0;
+          br{
+    	display: inherit;
+    }
      }
 	   
 
@@ -572,11 +579,13 @@ body {font-family: Verdana, sans-serif;}
 	 }
 	 a{
 	 	color: #2f5685;
+	 	font-weight: 700;
 	 }
 }
 .tip-yellow .tip-inner {
 	margin-top:-2px;
 	padding:0 9px 3px 9px;
+
 }
 
 /* Configure an arrow image - the script will automatically position it on the correct side of the tip */
@@ -584,7 +593,7 @@ body {font-family: Verdana, sans-serif;}
 	margin-top:-7px;
 	margin-left:15px;
 	top:0;
-	left:0;
+	left:0; 
 	width:16px;
 	height:10px;
 	background:url(css/tip-yellow_arrows.png) no-repeat;
