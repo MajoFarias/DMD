@@ -247,7 +247,6 @@
       </div> 
     <!--   Conatainer -->
 
-
     <!--Modales-->
      <div id="3dcad" class="modal fade" tabindex="-1" role="dialog">
         <div class="modal-dialog dialog-size" role="document">

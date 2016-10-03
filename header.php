@@ -40,7 +40,7 @@
 </section>
 
 <!--ModalInICIAR SESION-->
-<div class="modal fade bs-example-modal-sm" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+<div class="modal fade bs-example-modal-sm" id="inicio" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
   <div class="modal-dialog modal-sm" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -88,14 +88,17 @@
 		<div class="contacto-top">
 		<p><i class="glyph-icon flaticon-technology"></i><span>Ventas <br></span><a href="">01 800 890 90 38</a></p>
 		<p><i class="glyph-icon flaticon-business"></i><span>Soporte <br></span><a href="">01 800 363 43 57</a></p>
-		<p><i class="glyph-icon flaticon-people"></i><span><strong><a href="#myModal2" data-toggle="modal" data-target=".bs-example-modal-sm">Inicia<br> Sesión</a></strong></span></p>
+		<p><i class="glyph-icon flaticon-people"></i><span><strong>
+			<a href="" data-toggle="modal" data-target="#inicio">Inicia<br> Sesión</a></strong></span></p>
 		</div>
 	</section>
 
 	<section class="nav-logo container-fluid">
 		<article>
 		  <div class="col-xs-6 col-sm-3">
-		    <img src="assets/images/dmd.png" alt="">
+		  	<a href="index.php">
+		  			    <img src="assets/images/dmd.png" alt="">
+		    </a> 
 		  </div>
 
 		  <div class="col-sm-6 topfrase">
@@ -117,12 +120,12 @@
 		  <div class="overlay" id="overlay">
 		    <nav class="overlay-menu">
 		      <ul>
-		        <li><a data-toggle="modal" href="#myModal">Calendario de eventos</a></li>
-		        <li><a data-toggle="modal" href="#myModal">Top 10 novedades</a></li>
-		        <li><a data-toggle="modal" href="#myModal">Recorrido por el portafolio de soluciones</a></li>
-		        <li><a data-toggle="modal" href="#myModal">SOLIDWORKS® en la actualidad</a></li>
-		        <li><a data-toggle="modal" href="#myModal">Descargas</a></li>
-		        <li><a data-toggle="modal" href="#myModal">Casos de éxito</a></li>
+		        <li><a href="calendar.php">Calendario de eventos</a></li>
+		        <li><a href="novedades.php">Top 10 novedades</a></li>
+		        <li><a href="portafolio.php">Recorrido por el portafolio de soluciones</a></li>
+		        <li><a href="actualidad.php"> SOLIDWORKS® en la actualidad</a></li>
+		        <li><a href="descargas.php">Descargas</a></li>
+		        <li><a href="casos-exito.php">Casos de éxito</a></li>
 		      </ul>
 		    </nav>
 		  </div>
