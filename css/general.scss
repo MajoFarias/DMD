@@ -454,27 +454,15 @@ h3{
 		}
 	}
 	video{
-		    height: auto;
-    left: 50%;
+		
+	transform: translate(0, 0%);
+    width: auto;
     min-height: 100%;
     min-width: 100%;
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%, -43%);
-    width: auto;
-    z-index: -100;
     opacity: .4;
-    	    @media (max-width:768px){
+	    @media (max-width:768px){
 	    	width: 888px;
 	    }
-    
-	// transform: translate(0, 0%);
- //    width: auto;
- //    min-height: 100%;
- //    min-width: 100%;
-	//     @media (max-width:768px){
-	//     	width: 888px;
-	//     }
 	}
 
 	h1{
