@@ -24,31 +24,31 @@
             SolidWorks</h2>
             <div class="divdescarga">
               <img src="assets/images/pdf.png" alt="">
-              <p><a href="#">Descarga PDF</a></p>
+              <p><a href="pdf/Soluciones-Solidworks.PDF" target="_blank">Descarga PDF</a></p>
             </div>
           </div>
           <div class="col-xx col-xs-6 col-sm-3">
-           <h2><span>Soluciones</span><br>
-            SolidWorks</h2>
+           <h2><span>Solidworks</span><br>
+            Premium</h2>
             <div class="divdescarga">
               <img src="assets/images/pdf.png" alt="">
-              <p><a href="#">Descarga PDF</a></p>
+              <p><a href="pdf/Solidworks-Premium.PDF" target="_blank">Descarga PDF</a></p>
             </div>
           </div>
           <div class="col-xx col-xs-6 col-sm-3">
-           <h2><span>Soluciones</span><br>
-            SolidWorks</h2>
+           <h2><span>Solidworks</span><br>
+            Comunicaión Técnica</h2>
             <div class="divdescarga">
               <img src="assets/images/pdf.png" alt="">
-              <p><a href="#">Descarga PDF</a></p>
+              <p><a href="pdf/Solidworks-Comunicacion-Tecnica.PDF" target="_blank">Descarga PDF</a></p>
             </div>
           </div>
           <div class="col-xx col-xs-6 col-sm-3">
-           <h2><span>Soluciones</span><br>
-            SolidWorks</h2>
+           <h2><span>Nuevas</span><br>
+            Características</h2>
             <div class="divdescarga">
               <img src="assets/images/pdf.png" alt="">
-              <p><a href="#">Descarga PDF</a></p>
+              <p><a href="pdf/Diferencias-entre-Solidworks-2017-y-2016.PDF" target="_blank">Descarga PDF</a></p>
             </div>
           </div>
         </div>
