@@ -1,0 +1,15 @@
+Time : 19:45:43
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : SELECT * FROM users WHERE email = :email
+
+Time : 19:44:59
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : SELECT * FROM users WHERE email = :email
+
+Time : 19:40:42
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'joma1408@gmail.com' for key 'email_unique'
+Raw SQL : INSERT INTO users (email,firstname,lastname,jobtitle,company,phone,address,city,zipcode,state) VALUES (:email,:firstname,:lastname,:jobtitle,:company,:phone,:address,:city,:zipcode,:state)
+
+Time : 19:35:50
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'first_name' in 'field list'
+Raw SQL : INSERT IGNORE INTO users (email,first_name,last_name,job_title,company,phone,address,city,zip_code,state) VALUES (:email,:first_name,:last_name,:job_title,:company,:phone,:address,:city,:zip_code,:state)

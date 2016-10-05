@@ -28,7 +28,7 @@ Descubre cómo en DMD te ayudamos a enfrentar los desafíos de la actualidad con
 La Experiencia DMD te permitirá detonar la innovación para elevar la competitividad de tu empresa.
  <br><br>
                     </div>
-                     <button  class="btn-red" data-toggle="modal" data-target="#solicitar" >SOLICITAR DEMO</button>
+                     <button class="btn-red <?php echo (!$user) ? '' : 'request_demo'; ?>" <?php echo (!$user) ? 'data-toggle="modal" data-target="#registroModal"' : '' ?> data-name="SOLIDWORKS®">SOLICITAR DEMO</button>
                   </div>
                 </div>  
              </div>
