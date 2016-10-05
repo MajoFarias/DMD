@@ -1,4 +1,3 @@
-@charset "UTF-8";
 	/*
   	Flaticon icon font: Flaticon
   	Creation date: 28/09/2016 01:25
@@ -2542,11 +2541,6 @@ label {
   max-width: 100%;
   margin-bottom: 5px;
   font-weight: bold; }
-
-label.error{
-  font-size: 10px;
-  color: #C63232;
-  margin-bottom: 0}
 
 input[type="search"] {
   -webkit-box-sizing: border-box;
@@ -6666,10 +6660,6 @@ button.close {
 .carousel-inner > .item > img {
   max-width: initial; }
 
-.carousel-caption {
-  top: 220px;
-  bottom: 0; }
-
 .container2 {
   position: absolute;
   width: 100%;
@@ -7011,16 +7001,14 @@ body {
 
 .stickycontact {
   position: fixed;
-  z-index: 999999;
-  top: 417px; }
+  z-index: 9999;
+  top: 25%; }
   @media (max-width: 1280px) {
     .stickycontact {
-
-      top: 317px; 
-      z-index: 999;} }
+      top: 22%; } }
   @media (max-width: 480px) {
     .stickycontact {
-      top: 0; } }
+      top: 9%; } }
   .stickycontact .contact-body {
     background-color: #eee;
     width: 350px;
@@ -7033,26 +7021,39 @@ body {
       font-weight: 600;
       margin-bottom: 20px;
       text-transform: uppercase; }
-    .stickycontact .contact-body form input {
-      border-radius: 0px;
-      height: 35px !important; }
-    .stickycontact .contact-body form textarea {
-      border-radius: 0px; }
-    .stickycontact .contact-body form button {
-      background-color: #ea1328;
-      color: white;
-      font-size: 16px;
-      font-weight: 700;
-      width: 100%;
-      border-radius: initial;
-      padding: 10px;
-      border: 3px solid #ea1328;
-      border-color: #ea1328;
-      transition: background-color .5s;
-      margin-top: 15px; }
-      .stickycontact .contact-body form button:hover {
-        background-color: transparent;
-        color: #ea1328; }
+    .stickycontact .contact-body form {
+      -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; }
+      .stickycontact .contact-body form .form-group {
+        width: 49%; }
+      .stickycontact .contact-body form .form-group:nth-child(even) {
+        margin-left: 2%; }
+      .stickycontact .contact-body form input {
+        border-radius: 0px;
+        height: 35px !important; }
+      .stickycontact .contact-body form textarea {
+        border-radius: 0px;
+        height: 50px; }
+      .stickycontact .contact-body form button {
+        background-color: #ea1328;
+        color: white;
+        font-size: 16px;
+        font-weight: 700;
+        width: 100%;
+        border-radius: initial;
+        padding: 10px;
+        border: 3px solid #ea1328;
+        border-color: #ea1328;
+        transition: background-color .5s;
+        margin-top: 15px; }
+        .stickycontact .contact-body form button:hover {
+          background-color: transparent;
+          color: #ea1328; }
   .stickycontact .contact-opener {
     background-color: #2f5685;
     padding: 15px;
@@ -7072,7 +7073,7 @@ body {
         top: 100px; } }
     @media (max-width: 768px) {
       .stickycontact .contact-opener {
-        top: 250px; } }
+        top: 141px; } }
     .stickycontact .contact-opener:hover {
       color: #8dc7e1;
       text-decoration: none; }
@@ -7291,8 +7292,7 @@ h3 {
   .eyecatcher .carousel-indicators {
     left: 49%; } }
 .eyecatcher .carousel-caption {
-  top: 390px;
-  bottom: 0; }
+  bottom: 90px; }
   @media (max-width: 1280px) {
     .eyecatcher .carousel-caption {
       right: 10%;
@@ -7300,7 +7300,8 @@ h3 {
   @media (max-width: 1060px) {
     .eyecatcher .carousel-caption {
       right: 5%;
-      left: 3%; } }
+      left: 3%;
+      bottom: 60px; } }
   @media (max-width: 768px) {
     .eyecatcher .carousel-caption {
       top: 70px; } }
@@ -7311,14 +7312,15 @@ h3 {
     .eyecatcher .item-video {
       height: 500px; } }
 .eyecatcher video {
-  transform: translate(0, 0%);
-  width: auto;
+  height: auto;
+  left: 50%;
   min-height: 100%;
   min-width: 100%;
-  opacity: .4; }
-  @media (max-width: 768px) {
-    .eyecatcher video {
-      width: 888px; } }
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -45%);
+  width: auto;
+  opacity: .55; }
 .eyecatcher h1 {
   font-size: 60px;
   text-transform: uppercase;
@@ -7929,7 +7931,7 @@ a:focus {
 .btn-redsmall {
   background-color: #ea1328;
   color: white;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 700;
   border-radius: initial;
   padding: 6px 12px;

@@ -91,17 +91,14 @@ body{
 
 .stickycontact{
 	position: fixed;
-    z-index: 999999;
-    top: 417px;
+    z-index: 9999;
+    top: 25%;
     @media (max-width:1280px){
-    	top:317px;
-    	    z-index: 999;
+    	top: 22%;
+    	   
     }
     @media (max-width:480px){
-    	top:0;
-    }
-    @media (max-width:480px){
-    	top:179px;
+    	top: 9%;
     }
 
  		.contact-body{
@@ -118,12 +115,21 @@ body{
     			text-transform: uppercase;
     		}
     		form{
+    		  @include flexFlow;
+    		  .form-group{
+    		  	width: 49%;
+    		  }
+    		  .form-group:nth-child(even){
+    		  	margin-left: 2%;
+    		  }
     			input{
     				border-radius:0px;
     				height: 35px !important;
+    			
     			}
     			textarea{
     				border-radius:0px;
+    				height: 50px;
     			}
     			button{
     				background-color: #ea1328;
@@ -163,7 +169,7 @@ body{
 				top:100px;
 			}
 			@media (max-width:768px){
-				top:250px;
+				top:141px;
 			}
 			&:hover{
 				color:$bluelight;
@@ -434,8 +440,7 @@ h3{
 	}
 
 	.carousel-caption{
-		top:390px;
-		bottom:0;
+		bottom:90px;
 		@media (max-width:1280px){
 			right:10%;
 			left:10%;
@@ -443,6 +448,7 @@ h3{
 		@media (max-width:1060px){
 			right: 5%;
     		left: 3%;
+    		bottom:60px;
 		}
 		@media (max-width:768px){
 			top:70px;
@@ -458,14 +464,15 @@ h3{
 	}
 	video{
 		
-	transform: translate(0, 0%);
-    width: auto;
+	  height: auto;
+    left: 50%;
     min-height: 100%;
     min-width: 100%;
-    opacity: .4;
-	    @media (max-width:768px){
-	    	width: 888px;
-	    }
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -45%);
+    width: auto;
+    opacity: .55;
 	}
 
 	h1{
