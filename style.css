@@ -2542,6 +2542,11 @@ label {
   margin-bottom: 5px;
   font-weight: bold; }
 
+label.error{
+  font-size: 10px;
+  color: #C63232;
+  margin-bottom: 0}
+
 input[type="search"] {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
